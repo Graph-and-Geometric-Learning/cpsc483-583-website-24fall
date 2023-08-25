@@ -4,10 +4,11 @@
     </v-container>
 </template>
 
-<script>
+<script lang="ts">
+import { defineComponent } from "vue";
 
-export default {
+export default defineComponent({
     data: () => ({
     })
-}
+})
 </script>

@@ -12,12 +12,14 @@
 </v-container>
 </template>
 
-<script>
+<script lang="ts">
 import VueCal from 'vue-cal'
 import 'vue-cal/dist/vuecal.css'
 
-function getRepeatDates(start, end, day) {
-    var dates = []
+import { defineComponent } from "vue";
+
+function getRepeatDates(start: string, end: string, day: number) {
+    var dates: { [key: string] : string }[] = []
     var start_date = new Date(start)
     var end_date = new Date(end)
     while (start_date < end_date) {
@@ -36,12 +38,11 @@ function getRepeatDates(start, end, day) {
     }
     return dates
 }
-// console.log(getRepeatDates("2022-08-24", "2022-12-29", 3))
 
-export default {
+export default defineComponent({
     components: { VueCal },
     data: () => ({
         events: getRepeatDates("2022-08-31", "2022-12-07", 3)
     })
-}
+})
 </script>
