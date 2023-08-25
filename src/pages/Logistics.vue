@@ -149,14 +149,14 @@
     </v-container>
 </template>
 
-<script>
-import Todo from '../components/Todo.vue';
+<script lang="ts">
+import { defineComponent } from "vue";
 
-export default {
+export default defineComponent({
     data() {
         return {
             BASE_URL: import.meta.env.BASE_URL
         }
     }
-}
+})
 </script>

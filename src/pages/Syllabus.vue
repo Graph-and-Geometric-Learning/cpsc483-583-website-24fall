@@ -29,8 +29,10 @@
 </v-container>
 </template>
 
-<script>
-export default {
+<script lang="ts">
+import { defineComponent } from "vue";
+
+export default defineComponent({
     name: "Syllabus",
     data: () => ({
         items: [
@@ -136,5 +138,5 @@ export default {
             },
         ]
     })
-}
+})
 </script>

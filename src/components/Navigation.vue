@@ -14,8 +14,10 @@
     </v-navigation-drawer>
 </template> 
 
-<script>
-export default {
+<script lang="ts">
+import { defineComponent } from "vue";
+
+export default defineComponent({
     name: "Navigation",
     data: () => ({
         drawer: true,
@@ -30,7 +32,7 @@ export default {
             // { prepend_icon: "mdi-star", title: "Canvas", value: "canvas" },
         ],
     }),
-}
+})
 </script>
 
 <style scoped>

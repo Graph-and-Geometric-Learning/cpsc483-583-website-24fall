@@ -7,27 +7,15 @@
   </v-app>
 </template>
 
-<script>
-import HelloWorld from './components/HelloWorld.vue'
-import Navigation from './components/Navigation.vue'
-import Todo from './components/Todo.vue'
+<script lang="ts">
+import { defineComponent } from "vue";
+import Navigation from "./components/Navigation.vue";
 
-export default {
-  name: 'App',
+export default defineComponent({
+  name: "App",
   components: {
-    HelloWorld,
     Navigation,
-    Todo
-},
+  },
+});
 
-  data: () => ({
-    //
-  }),
-}
 </script>
-
-<style>
-ul {
-    padding-left: 20px;
-}
-</style>
