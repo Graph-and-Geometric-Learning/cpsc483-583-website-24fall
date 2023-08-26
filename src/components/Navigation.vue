@@ -1,7 +1,7 @@
 <template>
     <v-app-bar color="primary">
         <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
-        <v-toolbar-title>CPSC 483: Deep Learning on Graph-Structured Data</v-toolbar-title>
+        <v-toolbar-title>CPSC 483/583: Deep Learning on Graph-Structured Data</v-toolbar-title>
     </v-app-bar>
     <v-navigation-drawer v-model="drawer">
         <v-list density="default" nav>
@@ -34,9 +34,3 @@ export default defineComponent({
     }),
 })
 </script>
-
-<style scoped>
-a:hover {
-    color: #000000
-}
-</style>

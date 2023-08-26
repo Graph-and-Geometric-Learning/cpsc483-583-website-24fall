@@ -1,11 +1,11 @@
 // Composables
 import { createRouter, createWebHashHistory } from 'vue-router'
-import Logistics from '../pages/Logistics.vue'
-import Content from '../pages/Content.vue'
-import Syllabus from '../pages/Syllabus.vue'
-import Policies from '../pages/Policies.vue'
-import OfficeHours from '../pages/OfficeHours.vue'
-import Staff from '../pages/Staff.vue'
+import Logistics from '../views/Logistics.vue'
+import Content from '../views/Content.vue'
+import Syllabus from '../views/Syllabus.vue'
+import Policies from '../views/Policies.vue'
+import OfficeHours from '../views/OfficeHours.vue'
+import Staff from '../views/Staff.vue'
 
 const routes = [
   {
