@@ -67,31 +67,31 @@ var items: Item[] = [
         lecture: "Graph Attention Networks",
     },
     {
-        date: "Mon 09/20",
+        date: "Wed 09/20",
         lecture: "Scalable GNN Architectures",
     },
     {
-        date: "Wed 09/25",
+        date: "Mon 09/25",
         lecture: "Multi-hop GNNs and Multi-hop Attentions",
     },
     {
-        date: "Mon 09/27",
+        date: "Wed 09/27",
         lecture: "Theory of Graph Neural Networks",
     },
     {
-        date: "Wed 10/02",
+        date: "Mon 10/02",
         lecture: "GNN Expressive Power",
     },
     {
-        date: "Mon 10/04",
+        date: "Wed 10/04",
         lecture: "PyTorch Geometric Library (virtual)",
     },
     {
-        date: "Wed 10/09",
+        date: "Mon 10/09",
         lecture: "Graph Generative Models",
     },
     {
-        date: "Mon 10/11",
+        date: "Wed 10/11",
         lecture: "Spectral GNNs",
     },
     {
@@ -99,47 +99,51 @@ var items: Item[] = [
         lecture: "Self-supervised Learning with GNNs",
     },
     {
-        date: "Wed 10/23",
+        date: "Mon 10/23",
         lecture: "Explaining GNN Predictions",
     },
     {
-        date: "Mon 10/25",
+        date: "Wed 10/25",
         lecture: "Distributed Node Embeddings",
     },
     {
-        date: "Wed 10/30",
+        date: "Mon 10/30",
         lecture: "Geometric Embeddings: Order and Box Embeddings",
     },
     {
-        date: "Mon 11/01",
+        date: "Wed 11/01",
         lecture: "Hyperbolic Embeddings and Hyperbolic GNNs",
     },
     {
-        date: "Wed 11/06",
+        date: "Mon 11/06",
         lecture: "GNN AutoML",
     },
     {
-        date: "Mon 11/08",
+        date: "Wed 11/08",
         lecture: "Learning on Dynamic Graphs",
     },
     {
-        date: "Wed 11/13",
+        date: "Mon 11/13",
         lecture: "Heterogeneous Graphs for Social Networks and Recommender Systems",
     },
     {
-        date: "Mon 11/15",
+        date: "Wed 11/15",
         lecture: "Knowledge Graph Reasoning",
     },
     {
-        date: "Wed 11/27",
+        date: "Mon 11/27",
         lecture: "Knowledge Graph Embeddings in Hyperbolic Spaces",
     },
     {
-        date: "Mon 11/29",
+        date: "Wed 11/29",
         lecture: "Applications of Graph Learning in Biology and Medicine",
     },
     {
-        date: "Wed 12/04",
+        date: "Mon 12/04",
+        lecture: "Motif Mining and Recommender Systems",
+    },
+    {
+        date: "Wed 12/06",
         lecture: "Applications in Graphics and Scientific Simulations",
     },
 ]
