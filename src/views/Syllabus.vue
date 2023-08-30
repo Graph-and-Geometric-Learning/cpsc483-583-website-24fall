@@ -44,8 +44,8 @@ interface Item {
 var items: Item[] = [
     {
         date: "Wed 08/30",
-        lecture: "Background: Machine Learning and Graphs as Data Structure",
-        slide: import.meta.env.BASE_URL + "/01-intro.pdf",
+        lecture: "Introduction to Graph Learning",
+        slide: import.meta.env.BASE_URL + "01-intro.pdf",
     },
     {
         date: "Fri 09/01",
