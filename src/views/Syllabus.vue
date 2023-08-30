@@ -17,7 +17,7 @@
                         <tr v-for="item in items">
                             <td>{{ item.date }}</td>
                             <td>{{ item.lecture }}</td>
-                            <td>{{ item.slide }}</td>
+                            <td><a v-if="item.slide" :href="item.slide">[slide]</a></td>
                             <td>{{ item.reading }}</td>
                             <td>{{ item.event }}</td>
                             <td>{{ item.deadline }}</td>
@@ -45,6 +45,7 @@ var items: Item[] = [
     {
         date: "Wed 08/30",
         lecture: "Background: Machine Learning and Graphs as Data Structure",
+        slide: "/01-intro.pdf",
     },
     {
         date: "Fri 09/01",
