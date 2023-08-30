@@ -87,7 +87,7 @@
             <v-col>
                 <v-sheet class="pa-8" elevation="6">
                     <h1>Communication</h1>
-                    <h2>Piazza Q&A website</h2>
+                    <h2>Ed Discussion</h2>
                     <ul>
                         <li>Sign up <a href="https://edstem.org/us/courses/44408/discussion/">Ed Discussion</a> with your @yale.edu email.</li>
                         <li>Please participate and help each other, but
