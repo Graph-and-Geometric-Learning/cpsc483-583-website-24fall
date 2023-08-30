@@ -6,8 +6,7 @@
                     <h1>Welcom to CPSC 483/583!</h1>
                     <ul>
                         <li>Lectures are on Monday/Wednesday 16:00PM - 17:15PM EDT in <a
-                                href="https://cpsc.yale.edu/department-information/yale-computer-science-faq/computer-science-department-akw">AKW
-                                100 - Arthur K. Watson Hall 100
+                                href="https://cpsc.yale.edu/department-information/yale-computer-science-faq/computer-science-department-akw">Mason Laboratory 211
                             </a>.
                         <ul>
                             <li>Most of the lecture will be in-person.</li>
@@ -90,7 +89,7 @@
                     <h1>Communication</h1>
                     <h2>Piazza Q&A website</h2>
                     <ul>
-                        <li>Sign up <a href="piazza.com/yale/fall2022/cpsc483">Piazza</a> with your @yale.edu email.</li>
+                        <li>Sign up <a href="https://edstem.org/us/courses/44408/discussion/">Ed Discussion</a> with your @yale.edu email.</li>
                         <li>Please participate and help each other, but
                             <ul>
                                 <li>Annotate your questions</li>
@@ -98,7 +97,7 @@
                                 <li>Don't post code</li>
                             </ul>
                         </li>
-                        <li><b>We do not encourage private posts on Piazza</b> as they reduce the efficience with which we serve all students.</li>
+                        <li><b>We do not encourage private posts on Ed Discussion</b> as they reduce the efficience with which we serve all students.</li>
                     </ul>
                     <h2>Mailing List</h2>
                     <ul>

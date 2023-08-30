@@ -49,6 +49,7 @@ var items: Item[] = [
     {
         date: "Fri 09/01",
         lecture: "Plethora of Tasks and Features on Graphs",
+        event: "[HW1] Released\n[Colab1] Released",
     },
     {
         date: "Wed 09/06",
@@ -63,12 +64,24 @@ var items: Item[] = [
         lecture: "GNN Implementations, Objectives and Loss Functions",
     },
     {
+        date: "Fri 09/15",
+        lecture: "No Class",
+        event: "[HW2] Released",
+        deadline: "[HW1] Due",
+    },
+    {
         date: "Mon 09/18",
         lecture: "Graph Attention Networks",
     },
     {
         date: "Wed 09/20",
         lecture: "Scalable GNN Architectures",
+    },
+    {
+        date: "Fri 09/22",
+        lecture: "No Class",
+        event: "[Colab2] Released",
+        deadline: "[Colab1] Due",
     },
     {
         date: "Mon 09/25",
@@ -79,12 +92,22 @@ var items: Item[] = [
         lecture: "Theory of Graph Neural Networks",
     },
     {
+        date: "Fri 09/29",
+        lecture: "No Class",
+        deadline: "[HW2] Due",
+    },
+    {
         date: "Mon 10/02",
         lecture: "GNN Expressive Power",
     },
     {
         date: "Wed 10/04",
         lecture: "PyTorch Geometric Library (virtual)",
+    },
+    {
+        date: "Fri 10/06",
+        lecture: "No Class",
+        deadline: "[Colab2] Due",
     },
     {
         date: "Mon 10/09",
@@ -97,6 +120,11 @@ var items: Item[] = [
     {
         date: "Mon 10/16",
         lecture: "Self-supervised Learning with GNNs",
+    },
+    {
+        date: "Fri 10/20",
+        lecture: "No Class",
+        event: "[HW3] Released\n[Colab3] Released",
     },
     {
         date: "Mon 10/23",
@@ -115,6 +143,12 @@ var items: Item[] = [
         lecture: "Hyperbolic Embeddings and Hyperbolic GNNs",
     },
     {
+        date: "Fri 11/03",
+        lecture: "No Class",
+        event: "[HW3]Released\n[Colab4] Released",
+        deadline: "[HW3] Due",
+    },
+    {
         date: "Mon 11/06",
         lecture: "GNN AutoML",
     },
@@ -123,12 +157,27 @@ var items: Item[] = [
         lecture: "Learning on Dynamic Graphs",
     },
     {
+        date: "Fri 11/10",
+        lecture: "No Class",
+        deadline: "[Colab3] Due",
+    },
+    {
         date: "Mon 11/13",
         lecture: "Heterogeneous Graphs for Social Networks and Recommender Systems",
     },
     {
         date: "Wed 11/15",
         lecture: "Knowledge Graph Reasoning",
+    },
+    {
+        date: "Fri 11/17",
+        lecture: "No Class",
+        deadline: "[HW4] Due",
+    },
+    {
+        date: "Fri 11/24",
+        lecture: "No Class",
+        deadline: "[Colab4] Due",
     },
     {
         date: "Mon 11/27",
