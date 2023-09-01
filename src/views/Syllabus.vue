@@ -49,7 +49,8 @@ var items: Item[] = [
     },
     {
         date: "Fri 09/01",
-        lecture: "Plethora of Tasks and Features on Graphs",
+        lecture: "Machine Learning Tasks for Graph-Structured Data",
+        slide: import.meta.env.BASE_URL + "02-tasks.pdf",
         event: "[HW1] Released\n[Colab1] Released",
     },
     {
