@@ -20,9 +20,10 @@
                             <td><a v-if="item.slide" :href="item.slide">[slide]</a></td>
                             <td>{{ item.reading }}</td>
                             <td>
-                                <div v-if="item.urgent">
-                                    <a href="https://graph-and-geometric-learning.github.io/cpsc483-583-website-23fall/hw1.pdf">[HW1]</a> released<br>
-                                    <a href="https://graph-and-geometric-learning.github.io/cpsc483-583-website-23fall/colab1.pdf">[Colab1]</a> released
+                                <div v-if="item.new_api">
+                                    <a v-if="item.hw" :href="item.hw">[{{ baseName(item.hw) }}]</a> released
+                                    <br v-if="item.colab">
+                                    <a v-if="item.colab" :href="item.colab">[{{ baseName(item.colab) }}]</a> released
                                 </div>
                                 <div v-else>
                                     {{ item.event }}
@@ -47,7 +48,14 @@ interface Item {
     reading?: string;
     event?: string;
     deadline?: string;
-    urgent?: boolean;
+    hw?: string;
+    colab?: string;
+    new_api?: boolean;
+}
+
+enum EventType {
+    homework,
+    colab,
 }
 
 var items: Item[] = [
@@ -61,7 +69,9 @@ var items: Item[] = [
         lecture: "Machine Learning Tasks for Graph-Structured Data",
         slide: import.meta.env.BASE_URL + "02-tasks.pdf",
         event: "[HW1]Released\n[Colab1] Released",
-        urgent: true
+        hw: import.meta.env.BASE_URL + "hw1.pdf",
+        colab: import.meta.env.BASE_URL + "colab1.ipynb",
+        new_api: true,
     },
     {
         date: "Wed 09/06",
@@ -211,8 +221,17 @@ var items: Item[] = [
 
 export default defineComponent({
     name: "Syllabus",
+
     data: () => ({
         items: items
-    })
+    }),
+    methods: {
+        baseName(str) {
+            var base = new String(str).substring(str.lastIndexOf('/') + 1);
+            if (base.lastIndexOf(".") != -1)
+                base = base.substring(0, base.lastIndexOf("."));
+            return base;
+        }
+    }
 })
 </script>
