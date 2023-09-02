@@ -21,8 +21,8 @@
                             <td>{{ item.reading }}</td>
                             <td>
                                 <div v-if="item.urgent">
-                                    <a href="/hw1.pdf">[HW1]</a> released<br>
-                                    <a href="/colab1.pdf">[Colab1]</a> released
+                                    <a href="https://graph-and-geometric-learning.github.io/cpsc483-583-website-23fall/hw1.pdf">[HW1]</a> released<br>
+                                    <a href="https://graph-and-geometric-learning.github.io/cpsc483-583-website-23fall/colab1.pdf">[Colab1]</a> released
                                 </div>
                                 <div v-else>
                                     {{ item.event }}
