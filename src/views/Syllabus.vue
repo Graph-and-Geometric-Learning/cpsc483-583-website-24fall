@@ -9,7 +9,7 @@
                             <th>Lecture</th>
                             <th>Slides</th>
                             <th>Readings</th>
-                            <th>Events</th>
+                            <th></th>
                             <th>Deadlines</th>
                         </tr>
                     </thead>
@@ -19,7 +19,15 @@
                             <td>{{ item.lecture }}</td>
                             <td><a v-if="item.slide" :href="item.slide">[slide]</a></td>
                             <td>{{ item.reading }}</td>
-                            <td>{{ item.event }}</td>
+                            <td>
+                                <div v-if="item.urgent">
+                                    <a href="/hw1.pdf">[HW1]</a> released<br>
+                                    <a href="/colab1.pdf">[Colab1]</a> released
+                                </div>
+                                <div v-else>
+                                    {{ item.event }}
+                                </div>
+                            </td>
                             <td>{{ item.deadline }}</td>
                         </tr>
                     </tbody>
@@ -39,6 +47,7 @@ interface Item {
     reading?: string;
     event?: string;
     deadline?: string;
+    urgent?: boolean;
 }
 
 var items: Item[] = [
@@ -51,7 +60,8 @@ var items: Item[] = [
         date: "Fri 09/01",
         lecture: "Machine Learning Tasks for Graph-Structured Data",
         slide: import.meta.env.BASE_URL + "02-tasks.pdf",
-        event: "[HW1] Released\n[Colab1] Released",
+        event: "[HW1]Released\n[Colab1] Released",
+        urgent: true
     },
     {
         date: "Wed 09/06",
