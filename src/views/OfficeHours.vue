@@ -28,6 +28,17 @@ function time_number_to_string(time: number) {
     }
 }
 
+var recesses = [
+    {
+        start: new Date("2023-10-17"),
+        end: new Date("2023-10-23")
+    },
+    {
+        start: new Date("2023-11-17"),
+        end: new Date("2023-11-27")
+    },
+]
+
 function getRecurringEventsStartEnd(start: string, end: string, day: number, name: string, loc: string, start_time: number, end_time: number) {
     var dates: { [key: string]: string }[] = []
     var start_date = new Date(start)
@@ -35,17 +46,23 @@ function getRecurringEventsStartEnd(start: string, end: string, day: number, nam
     while (start_date < end_date) {
         start_date.setDate(start_date.getDate() + (((day + 7 - start_date.getDay()) % 7) || 7))
         var date = start_date.getFullYear() + '-' + String(start_date.getMonth() + 1).padStart(2, '0') + '-' + String(start_date.getDate()).padStart(2, '0')
-        if (
-            (date !== "2022-09-21") &&
-            (date !== "2022-10-19") &&
-            (date !== "2022-11-23")
-        )
+        let in_recess = false
+        for (let recess of recesses) {
+            let date_object = new Date(date)
+            if (date_object.getTime() >= recess.start.getTime() && date_object.getTime() < recess.end.getTime()) {
+                in_recess = true
+                break
+            }
+        }
+
+        if (!in_recess) {
             dates.push({
                 title: name,
                 content: loc,
                 start: date + ' ' + time_number_to_string(start_time),
                 end: date + ' ' + time_number_to_string(end_time),
             })
+        }
     }
     return dates
 }
