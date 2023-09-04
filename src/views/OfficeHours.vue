@@ -20,6 +20,14 @@ import 'vue-cal/dist/vuecal.css'
 
 import { defineComponent } from "vue";
 
+function time_number_to_string(time: number) {
+    if (time - Math.floor(time) < 0.5) {
+        return String(Math.floor(time)) + ":00"
+    } else {
+        return String(Math.floor(time)) + ":30"
+    }
+}
+
 function getRecurringEventsStartEnd(start: string, end: string, day: number, name: string, loc: string, start_time: number, end_time: number) {
     var dates: { [key: string]: string }[] = []
     var start_date = new Date(start)
@@ -35,8 +43,8 @@ function getRecurringEventsStartEnd(start: string, end: string, day: number, nam
             dates.push({
                 title: name,
                 content: loc,
-                start: date + ' ' + start_time.toString() + ':00',
-                end: date + ' ' + end_time.toString() + ':00',
+                start: date + ' ' + time_number_to_string(start_time),
+                end: date + ' ' + time_number_to_string(end_time),
             })
     }
     return dates
@@ -51,15 +59,23 @@ function getRexEvents() {
 }
 
 function getJialinEvents() {
-    return getRecurringEvents(5, "Jialin Chen", "Dunham 4th", 14, 15)
+    return getRecurringEvents(5, "Jialin Chen", "Dunham 228", 14, 15)
 }
 
 function getYuhangEvents() {
-    return getRecurringEvents(4, "Yuhang Chen", "Marx Library", 10, 11)
+    return getRecurringEvents(2, "Yuhang Chen", "Marx Library", 10, 11)
 }
 
 function getAgastyaEvents() {
-    return getRecurringEvents(3, "Agastya Rana", "TBD", 19, 20)
+    return getRecurringEvents(3, "Agastya Rana", "Dunham 4th", 19, 20)
+}
+
+function getMahdiEvents() {
+    return getRecurringEvents(4, "Mahdi Soleimani", "AKW 209", 13.5, 14.5)
+}
+
+function getMeiliEvents() {
+    return getRecurringEvents(6, "Meili Gupta", "Zoom", 10, 11)
 }
 
 function getEvents() {
@@ -67,6 +83,8 @@ function getEvents() {
             .concat(getJialinEvents())
             .concat(getYuhangEvents())
             .concat(getAgastyaEvents())
+            .concat(getMahdiEvents())
+            .concat(getMeiliEvents())
 }
 
 
