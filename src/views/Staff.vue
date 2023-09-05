@@ -52,6 +52,24 @@ export default defineComponent({
           .href,
         role: "TA",
       },
+      {
+        name: "Matt Soleimani",
+        image_src: new URL("../assets/photos/soleimani_matt.png", import.meta.url)
+          .href,
+        role: "TA",
+      },
+      {
+        name: "Meili Gupta",
+        image_src: new URL("../assets/photos/gupta_meili.png", import.meta.url)
+          .href,
+        role: "ULA",
+      },
+      {
+        name: "Weikang Qiu",
+        image_src: new URL("../assets/photos/qiu_weikang.png", import.meta.url)
+          .href,
+        role: "Grader",
+      },
     ],
   }),
 });
