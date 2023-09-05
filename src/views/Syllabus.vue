@@ -69,7 +69,7 @@ var items: Item[] = [
         lecture: "Machine Learning Tasks for Graph-Structured Data",
         slide: import.meta.env.BASE_URL + "02-tasks.pdf",
         event: "[HW1]Released\n[Colab1] Released",
-        hw: import.meta.env.BASE_URL + "hw1.pdf",
+        hw: import.meta.env.BASE_URL + "hw1.zip",
         colab: import.meta.env.BASE_URL + "colab1.ipynb",
         new_api: true,
     },
