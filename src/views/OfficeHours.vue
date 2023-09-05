@@ -39,7 +39,7 @@ var recesses = [
     },
 ]
 
-function getRecurringEventsStartEnd(start: string, end: string, day: number, name: string, loc: string, start_time: number, end_time: number) {
+function getRecurringEventsStartEnd(start: string, end: string, day: number, name: string, loc: string, zoom_link: string, start_time: number, end_time: number) {
     var dates: { [key: string]: string }[] = []
     var start_date = new Date(start)
     var end_date = new Date(end)
@@ -58,7 +58,7 @@ function getRecurringEventsStartEnd(start: string, end: string, day: number, nam
         if (!in_recess) {
             dates.push({
                 title: name,
-                content: loc,
+                content: loc + (zoom_link? `<br><a href=${zoom_link}>zoom</a>` : ""),
                 start: date + ' ' + time_number_to_string(start_time),
                 end: date + ' ' + time_number_to_string(end_time),
             })
@@ -67,32 +67,32 @@ function getRecurringEventsStartEnd(start: string, end: string, day: number, nam
     return dates
 }
 
-function getRecurringEvents(day: number, name: string, loc: string, start_time: number, end_time: number) {
-    return getRecurringEventsStartEnd("2023-08-30", "2023-12-08", day, name, loc, start_time, end_time)
+function getRecurringEvents(day: number, name: string, loc: string, zoom_link: string, start_time: number, end_time: number) {
+    return getRecurringEventsStartEnd("2023-08-30", "2023-12-08", day, name, loc, zoom_link, start_time, end_time)
 }
 
 function getRexEvents() {
-    return getRecurringEvents(1, "Rex Ying", "", 15, 16)
+    return getRecurringEvents(1, "Rex Ying", "", "", 15, 16)
 }
 
 function getJialinEvents() {
-    return getRecurringEvents(5, "Jialin Chen", "Dunham 228", 14, 15)
+    return getRecurringEvents(5, "Jialin Chen", "Dunham 228", "https://yale.zoom.us/j/95679332391", 14, 15)
 }
 
 function getYuhangEvents() {
-    return getRecurringEvents(2, "Yuhang Chen", "Marx Library", 10, 11)
+    return getRecurringEvents(2, "Yuhang Chen", "Marx Library", "", 10, 11)
 }
 
 function getAgastyaEvents() {
-    return getRecurringEvents(3, "Agastya Rana", "Dunham 4th", 19, 20)
+    return getRecurringEvents(3, "Agastya Rana", "Dunham 4th", "", 19, 20)
 }
 
 function getMahdiEvents() {
-    return getRecurringEvents(4, "Mahdi Soleimani", "AKW 209", 13.5, 14.5)
+    return getRecurringEvents(4, "Mahdi Soleimani", "AKW 209", "https://yale.zoom.us/my/matt.so", 13.5, 14.5)
 }
 
 function getMeiliEvents() {
-    return getRecurringEvents(6, "Meili Gupta", "Zoom", 10, 11)
+    return getRecurringEvents(6, "Meili Gupta", "WLH 015", "https://yale.zoom.us/j/9734866003", 10, 11)
 }
 
 function getEvents() {
@@ -112,3 +112,24 @@ export default defineComponent({
     })
 })
 </script>
+
+<style>
+
+.vuecal__event-title {
+  font-size: 1.2em;
+  font-weight: bold;
+  /* margin: 4px 0 8px; */
+}
+
+.vuecal__event-time {
+  display: inline-block;
+  /* margin-bottom: 12px;
+  padding-bottom: 12px; */
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.vuecal__event-content {
+  font-style: italic;
+  font-size: 0.8em;
+}
+</style>
