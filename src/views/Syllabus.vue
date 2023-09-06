@@ -75,7 +75,8 @@ var items: Item[] = [
     },
     {
         date: "Wed 09/06",
-        lecture: "Graph Neural Networks Models",
+        lecture: "Graph Neural Networks",
+        slide: import.meta.env.BASE_URL + "03-GNN.pdf",
     },
     {
         date: "Mon 09/11",
