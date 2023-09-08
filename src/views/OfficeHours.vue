@@ -58,7 +58,7 @@ function getRecurringEventsStartEnd(start: string, end: string, day: number, nam
         if (!in_recess) {
             dates.push({
                 title: name,
-                content: loc + (zoom_link? `<br><a href=${zoom_link}>zoom</a>` : ""),
+                content: [loc, (zoom_link? `<a href=${zoom_link}>zoom</a>` : "")].join("<br>"),
                 start: date + ' ' + time_number_to_string(start_time),
                 end: date + ' ' + time_number_to_string(end_time),
             })
@@ -72,11 +72,11 @@ function getRecurringEvents(day: number, name: string, loc: string, zoom_link: s
 }
 
 function getRexEvents() {
-    return getRecurringEvents(1, "Rex Ying", "", "", 15, 16)
+    return getRecurringEvents(1, "Rex Ying", "Dunham 226A", "", 15, 16)
 }
 
 function getJialinEvents() {
-    return getRecurringEvents(5, "Jialin Chen", "Dunham 228", "https://yale.zoom.us/j/95679332391", 14, 15)
+    return getRecurringEvents(5, "Jialin Chen", "Dunham 228", "", 14, 15)
 }
 
 function getYuhangEvents() {
@@ -84,7 +84,7 @@ function getYuhangEvents() {
 }
 
 function getAgastyaEvents() {
-    return getRecurringEvents(3, "Agastya Rana", "Dunham 4th", "", 19, 20)
+    return getRecurringEvents(3, "Agastya Rana", "", "https://yale.zoom.us/j/91070275564", 19, 20)
 }
 
 function getMahdiEvents() {
