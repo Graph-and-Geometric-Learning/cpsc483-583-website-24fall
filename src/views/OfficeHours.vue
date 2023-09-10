@@ -100,7 +100,7 @@ function getMahdiEvents() {
 }
 
 function getMeiliEvents() {
-    return getRecurringEvents(6, "Meili Gupta", "WLH 015", "https://yale.zoom.us/j/9734866003", 10, 11)
+    return getRecurringEvents(5, "Meili Gupta", "WLH 015", "https://yale.zoom.us/j/9734866003", 10, 11)
 }
 
 function getEvents() {
