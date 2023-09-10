@@ -105,11 +105,11 @@ function getMeiliEvents() {
 
 function getEvents() {
     return getRexEvents()
-            .concat(getJialinEvents())
             .concat(getYuhangEvents())
             .concat(getAgastyaEvents())
             .concat(getMahdiEvents())
             .concat(getMeiliEvents())
+            .concat(getJialinEvents())
 }
 
 
