@@ -55,10 +55,18 @@ function getRecurringEventsStartEnd(start: string, end: string, day: number, nam
             }
         }
 
+        var contents: string[] = []
+        if (loc) {
+            contents.push(loc)
+        }
+        if (zoom_link) {
+            contents.push(`<a href=${zoom_link}>zoom</a>`)
+        }
+
         if (!in_recess) {
             dates.push({
                 title: name,
-                content: [loc, (zoom_link? `<a href=${zoom_link}>zoom</a>` : "")].join("<br>"),
+                content: contents.join("<br>"),
                 start: date + ' ' + time_number_to_string(start_time),
                 end: date + ' ' + time_number_to_string(end_time),
             })
@@ -80,7 +88,7 @@ function getJialinEvents() {
 }
 
 function getYuhangEvents() {
-    return getRecurringEvents(2, "Yuhang Chen", "Marx Library", "", 10, 11)
+    return getRecurringEvents(2, "Yuhang Chen", "Marx Library C49", "", 10, 11)
 }
 
 function getAgastyaEvents() {
