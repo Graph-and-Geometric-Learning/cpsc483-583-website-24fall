@@ -85,7 +85,8 @@ var items: Item[] = [
     },
     {
         date: "Wed 09/13",
-        lecture: "GNN Implementations, Objectives and Loss Functions",
+        lecture: "Training Graph Neural Networks",
+        slide: import.meta.env.BASE_URL + "05-GNN_training.pdf",
     },
     {
         date: "Fri 09/15",
