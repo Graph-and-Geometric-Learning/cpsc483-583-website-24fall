@@ -92,7 +92,7 @@ function getYuhangEvents() {
 }
 
 function getAgastyaEvents() {
-    return getRecurringEvents(3, "Agastya Rana", "", "https://yale.zoom.us/j/91070275564", 19, 20)
+    return getRecurringEvents(3, "Agastya Rana", "", "https://yale.zoom.us/j/91070275564", 20, 21)
 }
 
 function getMahdiEvents() {
