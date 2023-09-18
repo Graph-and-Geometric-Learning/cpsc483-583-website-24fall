@@ -80,7 +80,7 @@ function getRecurringEvents(day: number, name: string, loc: string, zoom_link: s
 }
 
 function getRexEvents() {
-    return getRecurringEvents(1, "Rex Ying", "Dunham 226A", "", 15, 16)
+    return getRecurringEvents(1, "Rex Ying", "17 Hillhouse, Room 332", "", 15, 16)
 }
 
 function getJialinEvents() {
