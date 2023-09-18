@@ -98,12 +98,13 @@ var items: Item[] = [
     lecture: "No Class",
     event: "[HW2] Released",
     deadline: "[HW1] Due",
-    hw: import.meta.env.BASE_URL + "hw2.zip",
+      hw: import.meta.env.BASE_URL + "hw2.zip",
     new_api: true,
   },
   {
     date: "Mon 09/18",
-    lecture: "Graph Attention Networks",
+    lecture: "Scaling Up Graph Neural Networks to Large Graphs",
+    slide: import.meta.env.BASE_URL + "06-scalable.pdf",
   },
   {
     date: "Wed 09/20",
