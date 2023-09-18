@@ -108,7 +108,7 @@ var items: Item[] = [
   },
   {
     date: "Wed 09/20",
-    lecture: "Scalable GNN Architectures",
+    lecture: "Graph Attention Networks and Heterogeneous graphs",
   },
   {
     date: "Fri 09/22",
