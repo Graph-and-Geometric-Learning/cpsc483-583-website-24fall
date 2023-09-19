@@ -108,7 +108,8 @@ var items: Item[] = [
   },
   {
     date: "Wed 09/20",
-    lecture: "Graph Attention Networks and Heterogeneous graphs",
+    lecture: "Graph Attention and Multi-hop Attention",
+    slide: import.meta.env.BASE_URL + "07-graph_attention.pdf",
   },
   {
     date: "Fri 09/22",
