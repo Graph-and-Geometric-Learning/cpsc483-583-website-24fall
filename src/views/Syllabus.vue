@@ -16,7 +16,10 @@
           <tbody>
             <tr v-for="item in items">
               <td>{{ item.date }}</td>
-              <td>{{ item.lecture }}</td>
+              <td>
+                {{ item.lecture }}
+                <a v-if="item.date === 'Mon 10/02'" href="https://yale.zoom.us/j/94207787464?from=addon">[Zoom]</a>
+              </td>
               <td><a v-if="item.slide" :href="item.slide">[slide]</a></td>
               <td>{{ item.reading }}</td>
               <td>
@@ -66,12 +69,12 @@ enum EventType {
 var items: Item[] = [
   {
     date: "Wed 08/30",
-    lecture: "Introduction to Graph Learning",
+    lecture: "Background: Machine Learning and Graphs as Data Structure",
     slide: import.meta.env.BASE_URL + "01-intro.pdf",
   },
   {
     date: "Fri 09/01",
-    lecture: "Machine Learning Tasks for Graph-Structured Data",
+    lecture: "Plethora of Tasks and Features on Graphs",
     slide: import.meta.env.BASE_URL + "02-tasks.pdf",
     event: "[HW1]Released\n[Colab1] Released",
     hw: import.meta.env.BASE_URL + "hw1.zip",
@@ -80,7 +83,7 @@ var items: Item[] = [
   },
   {
     date: "Wed 09/06",
-    lecture: "Graph Neural Networks",
+    lecture: "Graph Neural Networks Models",
     slide: import.meta.env.BASE_URL + "03-GNN.pdf",
   },
   {
@@ -90,7 +93,7 @@ var items: Item[] = [
   },
   {
     date: "Wed 09/13",
-    lecture: "Training Graph Neural Networks",
+    lecture: "GNN Implementations, Objectives and Loss Functions",
     slide: import.meta.env.BASE_URL + "05-GNN_training.pdf",
   },
   {
@@ -103,12 +106,12 @@ var items: Item[] = [
   },
   {
     date: "Mon 09/18",
-    lecture: "Scaling Up Graph Neural Networks to Large Graphs",
+    lecture: "Scalable GNN Architectures",
     slide: import.meta.env.BASE_URL + "06-scalable.pdf",
   },
   {
     date: "Wed 09/20",
-    lecture: "Graph Attention and Multi-hop Attention",
+    lecture: "Graph Attention Networks and Heterogeneous Graphs",
     slide: import.meta.env.BASE_URL + "07-graph_attention.pdf",
   },
   {
@@ -119,7 +122,7 @@ var items: Item[] = [
   },
   {
     date: "Mon 09/25",
-    lecture: "Multi-hop GNNs and Multi-hop Attentions",
+    lecture: "GNNs and Transformers",
   },
   {
     date: "Wed 09/27",
@@ -132,7 +135,7 @@ var items: Item[] = [
   },
   {
     date: "Mon 10/02",
-    lecture: "GNN Expressive Power",
+    lecture: "Spectral GNNs",
   },
   {
     date: "Wed 10/04",
@@ -145,11 +148,11 @@ var items: Item[] = [
   },
   {
     date: "Mon 10/09",
-    lecture: "Graph Generative Models",
+    lecture: "GNN Expressive Power",
   },
   {
     date: "Wed 10/11",
-    lecture: "Spectral GNNs",
+    lecture: "Graph Transformers",
   },
   {
     date: "Mon 10/16",
@@ -162,7 +165,7 @@ var items: Item[] = [
   },
   {
     date: "Mon 10/23",
-    lecture: "Explaining GNN Predictions",
+    lecture: "Foundation models and Pre-trained GNNs",
   },
   {
     date: "Wed 10/25",
@@ -184,7 +187,7 @@ var items: Item[] = [
   },
   {
     date: "Mon 11/06",
-    lecture: "GNN AutoML",
+    lecture: "Explaining GNN Predictions",
   },
   {
     date: "Wed 11/08",
@@ -197,7 +200,7 @@ var items: Item[] = [
   },
   {
     date: "Mon 11/13",
-    lecture: "Heterogeneous Graphs for Social Networks and Recommender Systems",
+    lecture: "Graph Generative Models",
   },
   {
     date: "Wed 11/15",
@@ -223,11 +226,11 @@ var items: Item[] = [
   },
   {
     date: "Mon 12/04",
-    lecture: "Motif Mining and Recommender Systems",
+    lecture: "Applications in Graphics, Robotics and Scientific Simulations",
   },
   {
     date: "Wed 12/06",
-    lecture: "Applications in Graphics and Scientific Simulations",
+    lecture: "",
   },
 ];
 
