@@ -119,6 +119,8 @@ var items: Item[] = [
     lecture: "No Class",
     event: "[Colab2] Released",
     deadline: "[Colab1] Due",
+    colab: import.meta.env.BASE_URL + "colab2.ipynb",
+    new_api: true,
   },
   {
     date: "Mon 09/25",
