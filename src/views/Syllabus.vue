@@ -123,6 +123,7 @@ var items: Item[] = [
   {
     date: "Mon 09/25",
     lecture: "GNNs and Transformers",
+    slide: import.meta.env.BASE_URL + "08-transformers_and_graphs.pdf"
   },
   {
     date: "Wed 09/27",
