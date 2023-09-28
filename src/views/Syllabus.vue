@@ -130,6 +130,7 @@ var items: Item[] = [
   {
     date: "Wed 09/27",
     lecture: "Theory of Graph Neural Networks",
+    slide: import.meta.env.BASE_URL + "09-theory.pdf",
   },
   {
     date: "Fri 09/29",
