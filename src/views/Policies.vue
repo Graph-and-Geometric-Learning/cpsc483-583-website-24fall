@@ -89,8 +89,7 @@
                             should have known that such aid was not permitted
                         </li>
                     </ul>
-                    The <a
-                        href="https://bulletin.yale.edu/bulletins/som/rights-and-responsibilities-students">sanction</a>
+                    The <a href="https://bulletin.yale.edu/bulletins/som/rights-and-responsibilities-students">sanction</a>
                     for
                     even a first offense is severe.
                 </v-sheet>
@@ -100,29 +99,48 @@
             <v-col>
                 <v-sheet class="pa-8" elevation="6">
                     <h1>Projects</h1>
-                    Course project includes:
                     <ul>
-                        <li>Reproduce, analyze and compare at least 2 methods for the same task (on at least 2
-                            large-scale datasets)
+                        <li><b>Due Date</b>
+                            <ul>
+                                <li>Final Project report is due on the last day of classes</li>
+                                <li>Note: Late days do not apply to the proposal and report. There will be no extensions
+                                    granted for either.</li>
+                            </ul>
                         </li>
-                        <li>Propose new algorithms / architectures and validate on at least 2 datasets
+                        <li><b>Project Group Formation</b>
+                            <ul>
+                                <li>Individual project is recommended. You may also form groups of up to 2 students. Team
+                                    size will be taken under consideration when evaluating the scope of the project in
+                                    breadth and depth.</li>
+                                <li>For undergraduates working with graduate students in a team, we expect you to specify
+                                    what is the responsibility of each person (we will be grading separately). Otherwise, we
+                                    will grade the entire project with graduate standards</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <b>Grading</b>
+                            <ul>
+                                <li>Generally, grading will be the same for all project members except in some cases of
+                                    unequal contribution.</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <b>Project Criteria</b>
+                            <ul>
+                                <li>Undergraduate: We expect new GNNs on at least 2 large-scale datasets. If you are
+                                    reproducing GNNs that are already open source, we expect an in-depth analysis
+                                    (comparison, ablation, visualization, interpretation, explainability, autoML). If
+                                    implementing complex GNNs from scratch, we will not require analysis</li>
+                                <li>Graduate: We require an in-depth analysis of GNNs. We will hold graduate student
+                                    projects to a higher level of novelty in algorithms/architectures on at least 2
+                                    datasets. If you implement off-the-shelf GNNs, you must devise new modifications or
+                                    try out different tasks and objectives.</li>
+                                <li>The Project is an important part of the class and it will be very beneficial if you
+                                    aim to work on research in this area.</li>
+                                <li>Consult with the teaching staff if you have questions</li>
+                            </ul>
                         </li>
                     </ul>
-                    You should perform in groups of up to 3 students:
-                    <ul>
-                        <li>Fine to have groups of 1 or 2. The team size will be taken under consideration when
-                            evaluating the scope of the project in breadth and depth. But 3 person teams are usually
-                            more efficient.
-                        </li>
-                        <li>Project is the important work for the class
-                        </li>
-                        <li>Can be very beneficial if you aim to work on research in this topic
-                        </li>
-                        <li>Consult with the teaching staff if you have questions
-                        </li>
-                    </ul>
-                    <b>More information will be posted here in 3 weeks.</b>
-
                 </v-sheet>
             </v-col>
         </v-row>
