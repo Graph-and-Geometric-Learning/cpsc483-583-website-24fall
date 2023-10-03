@@ -101,7 +101,7 @@ var items: Item[] = [
     lecture: "No Class",
     event: "[HW2] Released",
     deadline: "[HW1] Due",
-      hw: import.meta.env.BASE_URL + "hw2.zip",
+    hw: import.meta.env.BASE_URL + "hw2.zip",
     new_api: true,
   },
   {
@@ -140,6 +140,7 @@ var items: Item[] = [
   {
     date: "Mon 10/02",
     lecture: "Spectral GNNs",
+    slide: import.meta.env.BASE_URL + "Spectral_GNN_Slides.pdf",
   },
   {
     date: "Wed 10/04",
