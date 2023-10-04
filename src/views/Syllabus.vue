@@ -154,6 +154,7 @@ var items: Item[] = [
   {
     date: "Mon 10/09",
     lecture: "GNN Expressive Power",
+    slide: import.meta.env.BASE_URL + "10-expressive_gnns.pdf",
   },
   {
     date: "Wed 10/11",
