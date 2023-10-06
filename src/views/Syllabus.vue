@@ -135,12 +135,12 @@ var items: Item[] = [
   {
     date: "Fri 09/29",
     lecture: "No Class",
-    deadline: "[HW2] Due",
   },
   {
     date: "Mon 10/02",
     lecture: "Spectral GNNs",
     slide: import.meta.env.BASE_URL + "Spectral_GNN_Slides.pdf",
+    deadline: "[HW2] Due",
   },
   {
     date: "Wed 10/04",
@@ -149,11 +149,11 @@ var items: Item[] = [
   {
     date: "Fri 10/06",
     lecture: "No Class",
-    deadline: "[Colab2] Due",
   },
   {
     date: "Mon 10/09",
     lecture: "GNN Expressive Power",
+    deadline: "[Colab2] Due",
   },
   {
     date: "Wed 10/11",
