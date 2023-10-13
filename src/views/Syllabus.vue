@@ -144,7 +144,7 @@ var items: Item[] = [
   },
   {
     date: "Wed 10/04",
-    lecture: "PyTorch Geometric Library (virtual)",
+    lecture: "GNN Expressive Power",
   },
   {
     date: "Fri 10/06",
@@ -152,91 +152,91 @@ var items: Item[] = [
   },
   {
     date: "Mon 10/09",
-    lecture: "GNN Expressive Power",
     deadline: "[Colab2] Due",
     slide: import.meta.env.BASE_URL + "10-expressive_gnns.pdf",
+    lecture: "PyTorch Geometric Library (Part 1)",
   },
   {
     date: "Wed 10/11",
-    lecture: "Graph Transformers",
+    lecture: "PyTorch Geometric Library (Part 2)",
   },
   {
     date: "Mon 10/16",
-    lecture: "Self-supervised Learning with GNNs",
+    lecture: "Graph Transformers",
   },
   {
     date: "Fri 10/20",
-    lecture: "No Class",
     event: "[HW3] Released\n[Colab3] Released",
+    lecture: "Self-supervised Learning with GNNs",
   },
   {
     date: "Mon 10/23",
-    lecture: "Foundation models and Pre-trained GNNs",
+    lecture: "No Class",
   },
   {
     date: "Wed 10/25",
-    lecture: "Distributed Node Embeddings",
+    lecture: "Foundation models and Pre-trained GNNs",
   },
   {
     date: "Mon 10/30",
-    lecture: "Geometric Embeddings: Order and Box Embeddings",
+    lecture: "Distributed Node Embeddings",
   },
   {
     date: "Wed 11/01",
-    lecture: "Hyperbolic Embeddings and Hyperbolic GNNs",
+    lecture: "Geometric Embeddings: Order and Box Embeddings",
   },
   {
     date: "Fri 11/03",
-    lecture: "No Class",
     event: "[HW3]Released\n[Colab4] Released",
     deadline: "[HW3] Due",
+    lecture: "Hyperbolic Embeddings and Hyperbolic GNNs",
   },
   {
     date: "Mon 11/06",
-    lecture: "Explaining GNN Predictions",
+    lecture: "No Class",
   },
   {
     date: "Wed 11/08",
-    lecture: "Learning on Dynamic Graphs",
+    lecture: "Explaining GNN Predictions",
   },
   {
     date: "Fri 11/10",
-    lecture: "No Class",
     deadline: "[Colab3] Due",
+    lecture: "Learning on Dynamic Graphs",
   },
   {
     date: "Mon 11/13",
-    lecture: "Graph Generative Models",
+    lecture: "No Class",
   },
   {
     date: "Wed 11/15",
-    lecture: "Knowledge Graph Reasoning",
+    lecture: "Graph Generative Models",
   },
   {
     date: "Fri 11/17",
-    lecture: "No Class",
     deadline: "[HW4] Due",
+    lecture: "Knowledge Graph Reasoning",
   },
   {
     date: "Fri 11/24",
-    lecture: "No Class",
     deadline: "[Colab4] Due",
+    lecture: "No Class",
   },
   {
     date: "Mon 11/27",
-    lecture: "Knowledge Graph Embeddings in Hyperbolic Spaces",
+    lecture: "No Class",
   },
   {
     date: "Wed 11/29",
-    lecture: "Applications of Graph Learning in Biology and Medicine",
+    lecture: "Knowledge Graph Embeddings in Hyperbolic Spaces",
   },
   {
     date: "Mon 12/04",
-    lecture: "Applications in Graphics, Robotics and Scientific Simulations",
+    lecture: "Applications of Graph Learning in Biology and Medicine",
   },
   {
     date: "Wed 12/06",
-    lecture: "",
+    lecture: "Final Exam",
   },
 ];
 
