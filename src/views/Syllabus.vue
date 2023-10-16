@@ -145,6 +145,7 @@ var items: Item[] = [
   {
     date: "Wed 10/04",
     lecture: "GNN Expressive Power",
+    slide: import.meta.env.BASE_URL + "10-expressive_gnns.pdf",
   },
   {
     date: "Fri 10/06",
@@ -153,7 +154,6 @@ var items: Item[] = [
   {
     date: "Mon 10/09",
     deadline: "[Colab2] Due",
-    slide: import.meta.env.BASE_URL + "10-expressive_gnns.pdf",
     lecture: "PyTorch Geometric Library (Part 1)",
   },
   {
@@ -163,6 +163,7 @@ var items: Item[] = [
   {
     date: "Mon 10/16",
     lecture: "Graph Transformers",
+    slide: import.meta.env.BASE_URL + "14-graph_transformers.pdf",
   },
   {
     date: "Fri 10/20",
