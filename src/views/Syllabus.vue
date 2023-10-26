@@ -166,30 +166,27 @@ var items: Item[] = [
     slide: import.meta.env.BASE_URL + "14-graph_transformer.pdf",
   },
   {
-    date: "Fri 10/20",
-    event: "[HW3] Released\n[Colab3] Released",
-    lecture: "Self-supervised Learning with GNNs",
-  },
-  {
-    date: "Mon 10/23",
-    lecture: "No Class",
-  },
-  {
     date: "Wed 10/25",
-    lecture: "Foundation models and Pre-trained GNNs",
+    // event: "[HW3] Released\n[Colab3] Released",
+    lecture: "Self-supervised Learning with GNNs",
+    hw: import.meta.env.BASE_URL + "hw3.zip",
+    colab: import.meta.env.BASE_URL + "colab3.ipynb",
+    new_api: true,
   },
   {
     date: "Mon 10/30",
-    lecture: "Distributed Node Embeddings",
+    lecture: "Foundation models and Pre-trained GNNs",
   },
   {
     date: "Wed 11/01",
+    lecture: "Distributed Node Embeddings",
+  },
+  {
+    date: "Mon 11/06",
     lecture: "Geometric Embeddings: Order and Box Embeddings",
   },
   {
-    date: "Fri 11/03",
-    event: "[HW3]Released\n[Colab4] Released",
-    deadline: "[HW3] Due",
+    date: "Wed 11/08",
     lecture: "Hyperbolic Embeddings and Hyperbolic GNNs",
   },
   {
@@ -198,6 +195,7 @@ var items: Item[] = [
   },
   {
     date: "Wed 11/08",
+    event: "[HW3] Due",
     lecture: "Explaining GNN Predictions",
   },
   {
