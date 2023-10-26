@@ -170,7 +170,7 @@ var items: Item[] = [
     // event: "[HW3] Released\n[Colab3] Released",
     lecture: "Self-supervised Learning with GNNs",
     hw: import.meta.env.BASE_URL + "hw3.zip",
-    colab: import.meta.env.BASE_URL + "colab3.ipynb",
+    // colab: import.meta.env.BASE_URL + "colab3.ipynb",
     new_api: true,
   },
   {
