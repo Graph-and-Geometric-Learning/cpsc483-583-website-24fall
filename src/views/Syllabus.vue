@@ -155,6 +155,7 @@ var items: Item[] = [
     date: "Mon 10/09",
     deadline: "[Colab2] Due",
     lecture: "PyTorch Geometric Library (Part 1)",
+    slide: import.meta.env.BASE_URL + "12_pyg.pdf",
   },
   {
     date: "Wed 10/11",
