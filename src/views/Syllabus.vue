@@ -161,34 +161,37 @@ var items: Item[] = [
   {
     date: "Mon 10/23",
     lecture: "Self-supervised Learning with GNNs",
-  },
-  {
-    date: "Wed 10/25",
-    lecture: "Foundation models and Pre-trained GNNs",
+    slide: import.meta.env.BASE_URL + "15-unsupervised_learning.pdf",
     hw: import.meta.env.BASE_URL + "hw3.zip",
     new_api: true,
   },
   {
+    date: "Wed 10/25",
+    slide: import.meta.env.BASE_URL + "16-ssl_extension.pdf",
+    lecture: "Foundation models and Pre-trained GNNs",
+  },
+  {
     date: "Mon 10/30",
-    lecture: "Distributed Node Embeddings",
+    slide: import.meta.env.BASE_URL + "17-trustworthy.pdf",
+    lecture: "Explaining GNN Predictions",
   },
   {
     date: "Wed 11/01",
-    lecture: "Geometric Embeddings: Order and Box Embeddings",
+    lecture: "Distributed Node Embeddings",
   },
   {
     date: "Mon 11/06",
-    lecture: "Hyperbolic Embeddings and Hyperbolic GNNs",
+    lecture: "Knowledge Graph Reasoning",
   },
   {
     date: "Wed 11/08",
     event: "[HW3] Due",
-    lecture: "Explaining GNN Predictions",
+    lecture: "Hyperbolic Embeddings and Hyperbolic GNNs",
   },
   {
     date: "Mon 11/13",
     deadline: "[Colab3] Due",
-    lecture: "Learning on Dynamic Graphs",
+    lecture: "Applications of Hyperbolic Representation Learning",
   },
   {
     date: "Mon 11/15",
@@ -197,11 +200,11 @@ var items: Item[] = [
   {
     date: "Wed 11/27",
     deadline: "[HW4] Due",
-    lecture: "Knowledge Graph Reasoning",
+    lecture: "Knowledge Graph Logical Queries",
   },
   {
     date: "Mon 11/29",
-    lecture: "Knowledge Graph Embeddings in Hyperbolic Spaces",
+    lecture: "Applications in Graphics, Robotics and Scientific Simulations",
   },
   {
     date: "Wed 12/04",
