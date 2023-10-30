@@ -172,7 +172,7 @@ var items: Item[] = [
   },
   {
     date: "Mon 10/30",
-    slide: import.meta.env.BASE_URL + "17-trustworthy.pdf",
+    slide: import.meta.env.BASE_URL + "17-xai_graphs.pdf",
     lecture: "Explaining GNN Predictions",
   },
   {
