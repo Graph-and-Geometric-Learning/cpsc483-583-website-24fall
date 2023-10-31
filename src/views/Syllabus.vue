@@ -204,11 +204,11 @@ var items: Item[] = [
   },
   {
     date: "Mon 11/29",
-    lecture: "Applications in Graphics, Robotics and Scientific Simulations",
+    lecture: "Guest Lecture",
   },
   {
     date: "Wed 12/04",
-    lecture: "Applications of Graph Learning in Biology and Medicine",
+    lecture: "Applications in Graphics, Robotics and Scientific Simulations",
   },
   {
     date: "Wed 12/06",
