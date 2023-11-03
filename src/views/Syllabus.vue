@@ -171,40 +171,46 @@ var items: Item[] = [
     lecture: "Foundation models and Pre-trained GNNs",
   },
   {
+    date: "Fri 10/27",
+    lecture: "No Class",
+    colab: import.meta.env.BASE_URL + "colab3.ipynb",
+    new_api: true,
+  },
+  {
     date: "Mon 10/30",
     slide: import.meta.env.BASE_URL + "17-xai_graphs.pdf",
     lecture: "Explaining GNN Predictions",
   },
   {
     date: "Wed 11/01",
-    lecture: "Distributed Node Embeddings",
+    lecture: "Explaining GNN Predictions (Cont.)",
   },
   {
     date: "Mon 11/06",
-    lecture: "Knowledge Graph Reasoning",
+    lecture: "Distributed Node Embeddings",
   },
   {
     date: "Wed 11/08",
     event: "[HW3] Due",
-    lecture: "Hyperbolic Embeddings and Hyperbolic GNNs",
+    lecture: "Knowledge Graph Reasoning",
   },
   {
     date: "Mon 11/13",
     deadline: "[Colab3] Due",
-    lecture: "Applications of Hyperbolic Representation Learning",
+    lecture: "Hyperbolic Embeddings and Hyperbolic GNNs",
   },
   {
     date: "Mon 11/15",
-    lecture: "Graph Generative Models",
+    lecture: "Applications of Hyperbolic Representation Learning",
   },
   {
     date: "Wed 11/27",
     deadline: "[HW4] Due",
-    lecture: "Knowledge Graph Logical Queries",
+    lecture: "Graph Generative Models",
   },
   {
     date: "Mon 11/29",
-    lecture: "Guest Lecture",
+    lecture: "Knowledge Graph Logical Queries",
   },
   {
     date: "Wed 12/04",
