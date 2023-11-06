@@ -188,6 +188,7 @@ var items: Item[] = [
   {
     date: "Mon 11/06",
     lecture: "Distributed Node Embeddings",
+    slide: import.meta.env.BASE_URL + "18-node_embeddings.pdf",
   },
   {
     date: "Wed 11/08",
