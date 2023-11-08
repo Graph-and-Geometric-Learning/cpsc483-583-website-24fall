@@ -194,6 +194,7 @@ var items: Item[] = [
     date: "Wed 11/08",
     event: "[HW3] Due",
     lecture: "Knowledge Graph Reasoning",
+    slide: import.meta.env.BASE_URL + "19-kg.pdf",
   },
   {
     date: "Mon 11/13",
