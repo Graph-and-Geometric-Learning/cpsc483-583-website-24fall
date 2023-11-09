@@ -198,12 +198,16 @@ var items: Item[] = [
   },
   {
     date: "Mon 11/13",
-    deadline: "[Colab3] Due",
     lecture: "Hyperbolic Embeddings and Hyperbolic GNNs",
   },
   {
     date: "Mon 11/15",
     lecture: "Applications of Hyperbolic Representation Learning",
+  },
+  {
+    date: "Mon 11/17",
+    lecture: "No Class",
+    deadline: "[Colab3] Due",
   },
   {
     date: "Wed 11/27",
