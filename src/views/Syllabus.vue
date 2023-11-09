@@ -201,11 +201,11 @@ var items: Item[] = [
     lecture: "Hyperbolic Embeddings and Hyperbolic GNNs",
   },
   {
-    date: "Mon 11/15",
+    date: "Wed 11/15",
     lecture: "Applications of Hyperbolic Representation Learning",
   },
   {
-    date: "Mon 11/17",
+    date: "Fri 11/17",
     lecture: "No Class",
     deadline: "[Colab3] Due",
   },
