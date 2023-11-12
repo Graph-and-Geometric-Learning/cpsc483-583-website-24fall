@@ -84,7 +84,7 @@ function getRexEvents() {
 }
 
 function getJialinEvents() {
-    return getRecurringEvents(5, "Jialin Chen", "Dunham 228", "", 14, 15)
+    return getRecurringEvents(5, "Jialin Chen", "Dunham 431", "", 14, 15)
 }
 
 function getYuhangEvents() {
