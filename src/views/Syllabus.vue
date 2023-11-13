@@ -202,7 +202,8 @@ var items: Item[] = [
   },
   {
     date: "Wed 11/15",
-    lecture: "Applications of Hyperbolic Representation Learning",
+    lecture: "Graph Generative Models",
+    slide: import.meta.env.BASE_URL + "20-deep-graph-generation.pdf",
   },
   {
     date: "Fri 11/17",
@@ -212,7 +213,7 @@ var items: Item[] = [
   {
     date: "Wed 11/27",
     deadline: "[HW4] Due",
-    lecture: "Graph Generative Models",
+    lecture: "Applications of Hyperbolic Representation Learning",
   },
   {
     date: "Mon 11/29",
