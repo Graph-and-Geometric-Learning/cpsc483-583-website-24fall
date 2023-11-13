@@ -198,12 +198,12 @@ var items: Item[] = [
   },
   {
     date: "Mon 11/13",
-    lecture: "Hyperbolic Embeddings and Hyperbolic GNNs",
+    lecture: "Graph Generative Models",
+    slide: import.meta.env.BASE_URL + "20-deep-graph-generation.pdf",
   },
   {
     date: "Wed 11/15",
-    lecture: "Graph Generative Models",
-    slide: import.meta.env.BASE_URL + "20-deep-graph-generation.pdf",
+    lecture: "Hyperbolic Embeddings and Hyperbolic GNNs",
   },
   {
     date: "Fri 11/17",
