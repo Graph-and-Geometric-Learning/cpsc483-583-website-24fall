@@ -55,6 +55,10 @@ function getRecurringEventsStartEnd(start: string, end: string, day: number, nam
             }
         }
 
+        if (date == "2023-11-20") {
+            in_recess = true
+        }
+
         var contents: string[] = []
         if (loc) {
             contents.push(loc)

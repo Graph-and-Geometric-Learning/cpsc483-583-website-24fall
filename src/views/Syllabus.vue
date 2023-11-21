@@ -210,14 +210,16 @@ var items: Item[] = [
     date: "Fri 11/17",
     lecture: "No Class",
     deadline: "[Colab3] Due",
+    hw: import.meta.env.BASE_URL + "hw4.zip",
+    new_api: true,
   },
   {
     date: "Wed 11/27",
-    deadline: "[HW4] Due",
     lecture: "Applications of Hyperbolic Representation Learning",
   },
   {
     date: "Mon 11/29",
+    deadline: "[HW4] Due",
     lecture: "Knowledge Graph Logical Queries",
   },
   {
