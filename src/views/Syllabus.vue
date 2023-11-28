@@ -216,6 +216,7 @@ var items: Item[] = [
   {
     date: "Wed 11/27",
     lecture: "Applications of Hyperbolic Representation Learning",
+    slide: import.meta.env.BASE_URL + "22-hyperbolic_applications.pdf"
   },
   {
     date: "Mon 11/29",
