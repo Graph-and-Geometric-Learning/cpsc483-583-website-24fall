@@ -222,6 +222,9 @@ var items: Item[] = [
     date: "Mon 11/29",
     deadline: "[HW4] Due",
     lecture: "Knowledge Graph Logical Queries",
+    slide: import.meta.env.BASE_URL + "23-reasoning.pdf",
+    colab: import.meta.env.BASE_URL + "colab4.ipynb",
+    new_api: true,
   },
   {
     date: "Wed 12/04",
