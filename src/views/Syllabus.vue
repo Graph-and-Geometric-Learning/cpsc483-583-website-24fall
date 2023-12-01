@@ -234,6 +234,15 @@ var items: Item[] = [
     date: "Wed 12/06",
     lecture: "Final Exam",
   },
+  {
+    date: "Fri 12/08",
+    lecture: "No Class",
+    deadline: "[Colab4] Due",
+  },
+{
+    date: "Tue 12/12",
+    lecture: "[Final Project] Due",
+}
 ];
 
 export default defineComponent({
