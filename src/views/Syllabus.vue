@@ -241,7 +241,8 @@ var items: Item[] = [
   },
 {
     date: "Tue 12/12",
-    lecture: "[Final Project] Due",
+    lecture: "No Class",
+    deadline: "[Final Project] Due"
 }
 ];
 
