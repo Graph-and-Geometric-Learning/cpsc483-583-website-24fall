@@ -229,6 +229,7 @@ var items: Item[] = [
   {
     date: "Wed 12/04",
     lecture: "Applications in Graphics, Robotics and Scientific Simulations",
+    slide: import.meta.env.BASE_URL + "24-simulation.pdf",
   },
   {
     date: "Wed 12/06",
@@ -239,11 +240,11 @@ var items: Item[] = [
     lecture: "No Class",
     deadline: "[Colab4] Due",
   },
-{
+  {
     date: "Tue 12/12",
     lecture: "No Class",
     deadline: "[Final Project] Due"
-}
+  }
 ];
 
 export default defineComponent({
