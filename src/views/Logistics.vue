@@ -102,7 +102,7 @@
                     <h2>Mailing List</h2>
                     <ul>
                         <li>Teaching staff: <a
-                                href="mailto:cpsc483_23fall_staff@googlegroups.com">cpsc483_23fall_staff@googlegroups.com</a></li>
+                                href="mailto: cpsc483_24fall_staff@googlegroups.com ">cpsc483_24fall_staff@googlegroups.com m</a></li>
                     </ul>
 
                     <h2>Office Hours</h2>

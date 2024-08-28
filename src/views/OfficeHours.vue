@@ -91,28 +91,8 @@ function getJialinEvents() {
     return getRecurringEvents(5, "Jialin Chen", "Dunham 431", "", 14, 15)
 }
 
-function getYuhangEvents() {
-    return getRecurringEvents(2, "Yuhang Chen", "Marx Library C49", "", 10, 11)
-}
-
-function getAgastyaEvents() {
-    return getRecurringEvents(3, "Agastya Rana", "", "https://yale.zoom.us/j/91070275564", 20, 21)
-}
-
-function getMahdiEvents() {
-    return getRecurringEvents(4, "Mahdi Soleimani", "AKW 209", "https://yale.zoom.us/my/matt.so", 13.5, 14.5)
-}
-
-function getMeiliEvents() {
-    return getRecurringEvents(5, "Meili Gupta", "WLH 015", "https://yale.zoom.us/j/9734866003", 10, 11)
-}
-
 function getEvents() {
     return getRexEvents()
-            .concat(getYuhangEvents())
-            .concat(getAgastyaEvents())
-            .concat(getMahdiEvents())
-            .concat(getMeiliEvents())
             .concat(getJialinEvents())
 }
 
