@@ -92,8 +92,7 @@ function getJialinEvents() {
 }
 
 function getEvents() {
-    return getRexEvents()
-            .concat(getJialinEvents())
+    return []
 }
 
 

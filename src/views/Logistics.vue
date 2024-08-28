@@ -89,7 +89,7 @@
                     <h1>Communication</h1>
                     <h2>Ed Discussion</h2>
                     <ul>
-                        <li>Sign up <a href="https://edstem.org/us/courses/44408/discussion/">Ed Discussion</a> with your @yale.edu email.</li>
+                        <li>Sign up <a href="https://edstem.org/us/courses/64495/discussion/">Ed Discussion</a> with your @yale.edu email.</li>
                         <li>Please participate and help each other, but
                             <ul>
                                 <li>Annotate your questions</li>
@@ -102,7 +102,7 @@
                     <h2>Mailing List</h2>
                     <ul>
                         <li>Teaching staff: <a
-                                href="mailto: cpsc483_24fall_staff@googlegroups.com ">cpsc483_24fall_staff@googlegroups.com m</a></li>
+                                href="mailto:cpsc483_24fall_staff@googlegroups.com">cpsc483_24fall_staff@googlegroups.com</a></li>
                     </ul>
 
                     <h2>Office Hours</h2>

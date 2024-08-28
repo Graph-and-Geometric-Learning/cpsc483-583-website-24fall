@@ -68,182 +68,105 @@ enum EventType {
 
 var items: Item[] = [
   {
-    date: "Wed 08/30",
-    lecture: "Background: Machine Learning and Graphs as Data Structure",
-    slide: import.meta.env.BASE_URL + "01-intro.pdf",
+    "date": "Wed 08/28",
+    "lecture": "Introduction",
+    slide: "https://yaleedu-my.sharepoint.com/:b:/g/personal/rex_ying_yale_edu/EdVOhpGliMpKkDwXiXLFWssB1sV5uiJEd_5bDIvxPnbjJA?e=4viVDL"
   },
   {
-    date: "Fri 09/01",
-    lecture: "Plethora of Tasks and Features on Graphs",
-    slide: import.meta.env.BASE_URL + "02-tasks.pdf",
-    event: "[HW1]Released\n[Colab1] Released",
-    hw: import.meta.env.BASE_URL + "hw1.zip",
-    colab: import.meta.env.BASE_URL + "colab1.ipynb",
-    new_api: true,
+    "date": "Wed 09/04",
+    "lecture": "Graph Learning Tasks"
   },
   {
-    date: "Wed 09/06",
-    lecture: "Graph Neural Networks Models",
-    slide: import.meta.env.BASE_URL + "03-GNN.pdf",
+    "date": "Mon 09/09",
+    "lecture": "Deep Learning Background and GNN basics"
   },
   {
-    date: "Mon 09/11",
-    lecture: "Graph Neural Networks Designs",
-    slide: import.meta.env.BASE_URL + "04-GNN_design.pdf",
+    "date": "Wed 09/11",
+    "lecture": "Graph Neural Networks Designs"
   },
   {
-    date: "Wed 09/13",
-    lecture: "GNN Implementations, Objectives and Loss Functions",
-    slide: import.meta.env.BASE_URL + "05-GNN_training.pdf",
+    "date": "Mon 09/16",
+    "lecture": "GNN Implementations, Objectives and Loss Functions"
   },
   {
-    date: "Fri 09/15",
-    lecture: "No Class",
-    event: "[HW2] Released",
-    deadline: "[HW1] Due",
-    hw: import.meta.env.BASE_URL + "hw2.zip",
-    new_api: true,
+    "date": "Wed 09/18",
+    "lecture": "Scalable GNN Architectures"
   },
   {
-    date: "Mon 09/18",
-    lecture: "Scalable GNN Architectures",
-    slide: import.meta.env.BASE_URL + "06-scalable.pdf",
+    "date": "Mon 09/23",
+    "lecture": "Graph Attention Networks and Heterogeneous graphs"
   },
   {
-    date: "Wed 09/20",
-    lecture: "Graph Attention Networks and Heterogeneous Graphs",
-    slide: import.meta.env.BASE_URL + "07-graph_attention.pdf",
+    "date": "Wed 09/25",
+    "lecture": "GNNs and Transformers"
   },
   {
-    date: "Fri 09/22",
-    lecture: "No Class",
-    event: "[Colab2] Released",
-    deadline: "[Colab1] Due",
-    colab: import.meta.env.BASE_URL + "colab2.ipynb",
-    new_api: true,
+    "date": "Mon 09/30",
+    "lecture": "Theory of Graph Neural Networks"
   },
   {
-    date: "Mon 09/25",
-    lecture: "GNNs and Transformers",
-    slide: import.meta.env.BASE_URL + "08-transformers_and_graphs.pdf"
+    "date": "Wed 10/02",
+    "lecture": "Guest Lecture 1"
   },
   {
-    date: "Wed 09/27",
-    lecture: "Theory of Graph Neural Networks",
-    slide: import.meta.env.BASE_URL + "09-theory.pdf",
+    "date": "Mon 10/07",
+    "lecture": "GNN Expressive Power"
   },
   {
-    date: "Mon 10/02",
-    lecture: "Spectral GNNs",
-    slide: import.meta.env.BASE_URL + "Spectral_GNN_Slides.pdf",
-    deadline: "[HW2] Due",
+    "date": "Wed 10/09",
+    "lecture": "GNN Expressive Power (2)"
   },
   {
-    date: "Wed 10/04",
-    lecture: "GNN Expressive Power",
-    slide: import.meta.env.BASE_URL + "10-expressive_gnns.pdf",
+    "date": "Mon 10/14",
+    "lecture": "Graph Learning Tools"
   },
   {
-    date: "Mon 10/09",
-    deadline: "[Colab2] Due",
-    lecture: "PyTorch Geometric Library (Part 1)",
-    slide: import.meta.env.BASE_URL + "12_pyg.pdf",
+    "date": "Mon 10/21",
+    "lecture": "Graph Transformers"
   },
   {
-    date: "Wed 10/11",
-    lecture: "PyTorch Geometric Library (Part 2)",
+    "date": "Wed 10/23",
+    "lecture": "Self-supervised Learning with GNNs"
   },
   {
-    date: "Mon 10/16",
-    lecture: "Graph Transformers",
-    slide: import.meta.env.BASE_URL + "14-graph_transformer.pdf",
+    "date": "Mon 10/28",
+    "lecture": "Foundation models and Pre-trained GNNs"
   },
   {
-    date: "Mon 10/23",
-    lecture: "Self-supervised Learning with GNNs",
-    slide: import.meta.env.BASE_URL + "15-unsupervised_learning.pdf",
-    hw: import.meta.env.BASE_URL + "hw3.zip",
-    new_api: true,
+    "date": "Wed 10/30",
+    "lecture": "Explaining GNN Predictions"
   },
   {
-    date: "Wed 10/25",
-    slide: import.meta.env.BASE_URL + "16-ssl_extension.pdf",
-    lecture: "Foundation models and Pre-trained GNNs",
+    "date": "Mon 11/04",
+    "lecture": "Guest Lecture 2 (applications)"
   },
   {
-    date: "Fri 10/27",
-    lecture: "No Class",
-    colab: import.meta.env.BASE_URL + "colab3.ipynb",
-    new_api: true,
+    "date": "Wed 11/06",
+    "lecture": "Distributed Node Embeddings"
   },
   {
-    date: "Mon 10/30",
-    slide: import.meta.env.BASE_URL + "17-xai_graphs.pdf",
-    lecture: "Explaining GNN Predictions",
+    "date": "Mon 11/11",
+    "lecture": "Knowledge Graph Reasoning"
   },
   {
-    date: "Wed 11/01",
-    lecture: "Explaining GNN Predictions (Cont.)",
+    "date": "Wed 11/13",
+    "lecture": "Hyperbolic Embeddings and Hyperbolic GNNs"
   },
   {
-    date: "Mon 11/06",
-    lecture: "Distributed Node Embeddings",
-    slide: import.meta.env.BASE_URL + "18-node_embeddings.pdf",
+    "date": "Mon 11/18",
+    "lecture": "Advanced non-Euclidean Models"
   },
   {
-    date: "Wed 11/08",
-    event: "[HW3] Due",
-    lecture: "Knowledge Graph Reasoning",
-    slide: import.meta.env.BASE_URL + "19-kg.pdf",
+    "date": "Wed 11/20",
+    "lecture": "Graph Generative Models"
   },
   {
-    date: "Mon 11/13",
-    lecture: "Graph Generative Models",
-    slide: import.meta.env.BASE_URL + "20-deep-graph-generation.pdf",
+    "date": "Mon 12/02",
+    "lecture": "Multimodal Graph Learning"
   },
   {
-    date: "Wed 11/15",
-    lecture: "Hyperbolic Embeddings and Hyperbolic GNNs",
-    slide: import.meta.env.BASE_URL + "21-hyperbolic.pdf",
-  },
-  {
-    date: "Fri 11/17",
-    lecture: "No Class",
-    deadline: "[Colab3] Due",
-    hw: import.meta.env.BASE_URL + "hw4.zip",
-    new_api: true,
-  },
-  {
-    date: "Wed 11/27",
-    lecture: "Applications of Hyperbolic Representation Learning",
-    slide: import.meta.env.BASE_URL + "22-hyperbolic_applications.pdf"
-  },
-  {
-    date: "Mon 11/29",
-    deadline: "[HW4] Due",
-    lecture: "Knowledge Graph Logical Queries",
-    slide: import.meta.env.BASE_URL + "23-reasoning.pdf",
-    colab: import.meta.env.BASE_URL + "colab4.ipynb",
-    new_api: true,
-  },
-  {
-    date: "Wed 12/04",
-    lecture: "Applications in Graphics, Robotics and Scientific Simulations",
-    slide: import.meta.env.BASE_URL + "24-simulation.pdf",
-  },
-  {
-    date: "Wed 12/06",
-    lecture: "Final Exam",
-  },
-  {
-    date: "Fri 12/08",
-    lecture: "No Class",
-    deadline: "[Colab4] Due",
-  },
-  {
-    date: "Tue 12/12",
-    lecture: "No Class",
-    deadline: "[Final Project] Due"
+    "date": "Wed 12/04",
+    "lecture": "Applications in Graphics, Neuroscience and Scientific Simulations"
   }
 ];
 
