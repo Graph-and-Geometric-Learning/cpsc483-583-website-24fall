@@ -70,7 +70,7 @@ var items: Item[] = [
   {
     "date": "Wed 08/28",
     "lecture": "Introduction",
-    slide: "https://yaleedu-my.sharepoint.com/:b:/g/personal/rex_ying_yale_edu/EdVOhpGliMpKkDwXiXLFWssB1sV5uiJEd_5bDIvxPnbjJA?e=4viVDL"
+    slide: "https://yaleedu-my.sharepoint.com/:b:/g/personal/rex_ying_yale_edu/EVfbmAwAdmBCkEIkPULCsA0BMSxvFVTtpcbHSPbMs21YWg?e=E52cvD"
   },
   {
     "date": "Wed 09/04",
