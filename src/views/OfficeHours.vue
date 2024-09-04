@@ -30,12 +30,12 @@ function time_number_to_string(time: number) {
 
 var recesses = [
     {
-        start: new Date("2023-10-17"),
-        end: new Date("2023-10-23")
+        start: new Date("2024-10-15"),
+        end: new Date("2024-10-21")
     },
     {
-        start: new Date("2023-11-17"),
-        end: new Date("2023-11-27")
+        start: new Date("2024-11-22"),
+        end: new Date("2024-12-02")
     },
 ]
 
@@ -53,10 +53,6 @@ function getRecurringEventsStartEnd(start: string, end: string, day: number, nam
                 in_recess = true
                 break
             }
-        }
-
-        if (date == "2023-11-20") {
-            in_recess = true
         }
 
         var contents: string[] = []
@@ -80,19 +76,50 @@ function getRecurringEventsStartEnd(start: string, end: string, day: number, nam
 }
 
 function getRecurringEvents(day: number, name: string, loc: string, zoom_link: string, start_time: number, end_time: number) {
-    return getRecurringEventsStartEnd("2023-08-30", "2023-12-08", day, name, loc, zoom_link, start_time, end_time)
+    return getRecurringEventsStartEnd("2024-09-02", "2024-12-01", day, name, loc, zoom_link, start_time, end_time)
 }
 
-function getRexEvents() {
-    return getRecurringEvents(1, "Rex Ying", "17 Hillhouse, Room 332", "", 15, 16)
+
+// Weikang: Wednesday (time 12-1 pm, location, Dunham 432) 
+// Tinglin: Friday Office Hour (time 1-2 pm, location: Dunham 432) 
+// Chuhan: Monday Office Hour (time 9-10 am and location HLH 3rd floor)  
+// Herlock: Thursdays Office Hour (Time 11:30-12:30 PM, location: Bass Library L34D) 
+// Rishabh: Tuesday Office Hour (time 4-5pm, location: Tsai Center for Innovative Thinking 1st floor in front of reception desk) 
+// David: Saturday Office Hour (time 1-2pm, location: Kline rm 211) 
+
+function getWeikangEvents() {
+    return getRecurringEvents(3, "Weikang", "Dunham 432", "", 12, 13)
 }
 
-function getJialinEvents() {
-    return getRecurringEvents(5, "Jialin Chen", "Dunham 431", "", 14, 15)
+
+function getTinglinEvents() {
+    return getRecurringEvents(5, "Tinglin", "Dunham 432", "", 13, 14)
 }
+
+function getChuhanEvents() {
+    return getRecurringEvents(1, "Chuhan", "HLH 3rd floor", "", 9, 10)
+}
+
+function getHerlockEvents() {
+    return getRecurringEvents(4, "Herlock", "Bass Library L34D", "", 11.5, 12.5)
+}
+
+function getRishabhEvents() {
+    return getRecurringEvents(2, "Rishabh", "Tsai Center for Innovative Thinking 1st floor in front of reception desk", "", 16, 17)
+}
+
+function getDavidEvents() {
+    return getRecurringEvents(6, "David", "Kline rm 211", "", 13, 14)
+}
+
 
 function getEvents() {
-    return []
+    return getWeikangEvents()
+        .concat(getTinglinEvents())
+        .concat(getChuhanEvents())
+        .concat(getHerlockEvents())
+        .concat(getRishabhEvents())
+        .concat(getDavidEvents())
 }
 
 

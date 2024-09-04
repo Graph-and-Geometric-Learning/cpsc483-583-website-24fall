@@ -8,8 +8,9 @@
               <th>Date</th>
               <th>Lecture</th>
               <th>Slides</th>
+              <th>Recording</th>
               <th>Readings</th>
-              <th></th>
+              <th>Assignment</th>
               <th>Deadlines</th>
             </tr>
           </thead>
@@ -21,21 +22,18 @@
                 <a v-if="item.date === 'Mon 10/02'" href="https://yale.zoom.us/j/94207787464?from=addon">[Zoom]</a>
               </td>
               <td><a v-if="item.slide" :href="item.slide">[slide]</a></td>
+              <td><a v-if="item.recording" :href="item.recording">[recording]</a></td>
               <td>{{ item.reading }}</td>
               <td>
-                <div v-if="item.new_api">
-                  <div v-if="item.hw">
-                    <a :href="item.hw">[{{ baseName(item.hw) }}]</a> released
-                  </div>
-                  <br v-if="item.colab" />
-                  <div v-if="item.colab">
-                    <a :href="item.colab">[{{ baseName(item.colab) }}]</a>
-                    released
-                  </div>
-                </div>
-                <div v-else>
-                  {{ item.event }}
-                </div>
+              <div v-if="item.hw">
+                {{ item.hw.name }} released <a :href="item.hw.pdf">[pdf]</a> <a :href="item.hw.zip">[zip]</a> 
+              </div>
+              <br v-if="item.colab" />
+              <div v-if="item.colab">
+                <a :href="item.colab">[{{ baseName(item.colab) }}]</a>
+                released
+              </div>
+            
               </td>
               <td>{{ item.deadline }}</td>
             </tr>
@@ -47,7 +45,14 @@
 </template>
 
 <script lang="ts">
+import HelloWorld from "@/components/HelloWorld.vue";
 import { defineComponent } from "vue";
+
+interface HW {
+  name: string,
+  pdf: string,
+  zip: string,
+}
 
 interface Item {
   date: string;
@@ -56,9 +61,9 @@ interface Item {
   reading?: string;
   event?: string;
   deadline?: string;
-  hw?: string;
+  hw?: HW;
   colab?: string;
-  new_api?: boolean;
+  recording?: string;
 }
 
 enum EventType {
@@ -70,104 +75,112 @@ var items: Item[] = [
   {
     "date": "Wed 08/28",
     "lecture": "Introduction",
-    slide: "https://yaleedu-my.sharepoint.com/:b:/g/personal/rex_ying_yale_edu/EVfbmAwAdmBCkEIkPULCsA0BMSxvFVTtpcbHSPbMs21YWg?e=E52cvD"
+    slide: "https://yaleedu-my.sharepoint.com/:b:/g/personal/rex_ying_yale_edu/EYJG3bz_K9NKlTVN4dUEDvwBvkR_Zr70aSTumbze55AdRA",
+    recording: "https://yale.zoom.us/rec/share/ZfE4JpS8Cn89Q4y2n_c6SNMskydJuK4LOhtpd96X0FlTCKPZzUYlAKECSDgy1ga9.acNVUGRt658ZkIuS",
+  },
+  {
+    "date": "Fri 08/30",
+    "lecture": "Graph Learning Tasks",
+    slide: "https://yaleedu-my.sharepoint.com/:b:/g/personal/rex_ying_yale_edu/EZq9BTaRaKJLrhXWV_P-KeABQlyQVwrb6zrPGt2HAA5kqA?e=qEyfed",
+    hw: {
+      name: "HW1",
+      pdf: import.meta.env.BASE_URL + "assignment_1.pdf",
+      zip: import.meta.env.BASE_URL + "assignment_1.zip",
+    },
   },
   {
     "date": "Wed 09/04",
-    "lecture": "Graph Learning Tasks"
-  },
-  {
-    "date": "Mon 09/09",
     "lecture": "Deep Learning Background and GNN basics"
   },
   {
-    "date": "Wed 09/11",
+    "date": "Mon 09/09",
     "lecture": "Graph Neural Networks Designs"
   },
   {
-    "date": "Mon 09/16",
+    "date": "Wed 09/11",
     "lecture": "GNN Implementations, Objectives and Loss Functions"
   },
   {
-    "date": "Wed 09/18",
+    "date": "Mon 09/16",
     "lecture": "Scalable GNN Architectures"
   },
   {
-    "date": "Mon 09/23",
+    "date": "Wed 09/18",
     "lecture": "Graph Attention Networks and Heterogeneous graphs"
   },
   {
-    "date": "Wed 09/25",
+    "date": "Mon 09/23",
     "lecture": "GNNs and Transformers"
   },
   {
-    "date": "Mon 09/30",
+    "date": "Wed 09/25",
     "lecture": "Theory of Graph Neural Networks"
   },
   {
-    "date": "Wed 10/02",
+    "date": "Mon 09/30",
     "lecture": "Guest Lecture 1"
   },
   {
-    "date": "Mon 10/07",
+    "date": "Wed 10/02",
     "lecture": "GNN Expressive Power"
   },
   {
-    "date": "Wed 10/09",
+    "date": "Mon 10/07",
     "lecture": "GNN Expressive Power (2)"
   },
   {
-    "date": "Mon 10/14",
+    "date": "Wed 10/09",
     "lecture": "Graph Learning Tools"
   },
   {
-    "date": "Mon 10/21",
+    "date": "Mon 10/14",
     "lecture": "Graph Transformers"
   },
   {
-    "date": "Wed 10/23",
+    "date": "Mon 10/21",
     "lecture": "Self-supervised Learning with GNNs"
   },
   {
-    "date": "Mon 10/28",
+    "date": "Wed 10/23",
     "lecture": "Foundation models and Pre-trained GNNs"
   },
   {
-    "date": "Wed 10/30",
+    "date": "Mon 10/28",
     "lecture": "Explaining GNN Predictions"
   },
   {
-    "date": "Mon 11/04",
+    "date": "Wed 10/30",
     "lecture": "Guest Lecture 2 (applications)"
   },
   {
-    "date": "Wed 11/06",
+    "date": "Mon 11/04",
     "lecture": "Distributed Node Embeddings"
   },
   {
-    "date": "Mon 11/11",
+    "date": "Wed 11/06",
     "lecture": "Knowledge Graph Reasoning"
   },
   {
-    "date": "Wed 11/13",
+    "date": "Mon 11/11",
     "lecture": "Hyperbolic Embeddings and Hyperbolic GNNs"
   },
   {
-    "date": "Mon 11/18",
+    "date": "Wed 11/13",
     "lecture": "Advanced non-Euclidean Models"
   },
   {
-    "date": "Wed 11/20",
+    "date": "Mon 11/18",
     "lecture": "Graph Generative Models"
   },
   {
-    "date": "Mon 12/02",
+    "date": "Wed 11/20",
     "lecture": "Multimodal Graph Learning"
   },
   {
-    "date": "Wed 12/04",
+    "date": "Mon 12/02",
     "lecture": "Applications in Graphics, Neuroscience and Scientific Simulations"
   }
+
 ];
 
 export default defineComponent({
