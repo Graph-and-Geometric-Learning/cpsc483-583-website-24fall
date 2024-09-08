@@ -30,8 +30,7 @@
               </div>
               <br v-if="item.colab" />
               <div v-if="item.colab">
-                <a :href="item.colab">[{{ baseName(item.colab) }}]</a>
-                released
+                {{ item.colab.name }} released <a :href="item.colab.url">[ipynb]</a>
               </div>
             
               </td>
@@ -54,6 +53,11 @@ interface HW {
   zip: string,
 }
 
+interface Colab {
+  name: string,
+  url: string,
+}
+
 interface Item {
   date: string;
   lecture: string;
@@ -62,7 +66,7 @@ interface Item {
   event?: string;
   deadline?: string;
   hw?: HW;
-  colab?: string;
+  colab?: Colab;
   recording?: string;
 }
 
@@ -90,7 +94,11 @@ var items: Item[] = [
   },
   {
     "date": "Wed 09/04",
-    "lecture": "Deep Learning Background and GNN basics"
+    "lecture": "Deep Learning Background and GNN basics",
+    colab: {
+      name: "Colab1",
+      url: import.meta.env.BASE_URL + "colab_1.ipynb",
+    },
   },
   {
     "date": "Mon 09/09",
@@ -107,6 +115,11 @@ var items: Item[] = [
   {
     "date": "Wed 09/18",
     "lecture": "Graph Attention Networks and Heterogeneous graphs"
+  },
+  {
+    "date": "Fri 09/20",
+    "lecture": "No classes",
+    deadline: "Colab 1 Due",
   },
   {
     "date": "Mon 09/23",
