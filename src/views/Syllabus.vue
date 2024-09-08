@@ -30,7 +30,10 @@
               </div>
               <br v-if="item.colab" />
               <div v-if="item.colab">
-                {{ item.colab.name }} released <a :href="item.colab.url">[ipynb]</a>
+              <a target="_blank" :href="item.colab.url">
+                <img src="https://colab.research.google.com/assets/colab-badge.svg" :alt="item.colab.name" />
+              </a>
+                <!-- {{ item.colab.name }} released <a :href="item.colab.url">[ipynb]</a> -->
               </div>
             
               </td>
@@ -97,7 +100,7 @@ var items: Item[] = [
     "lecture": "Deep Learning Background and GNN basics",
     colab: {
       name: "Colab1",
-      url: import.meta.env.BASE_URL + "colab_1.ipynb",
+      url: "https://colab.research.google.com/github/Graph-and-Geometric-Learning/cpsc483-583-website-24fall/blob/gh-pages/colab1.ipynb",
     },
   },
   {
