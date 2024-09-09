@@ -98,6 +98,7 @@ var items: Item[] = [
   {
     "date": "Wed 09/04",
     "lecture": "Deep Learning Background and GNN basics",
+    slide: "https://yaleedu-my.sharepoint.com/:b:/g/personal/rex_ying_yale_edu/EVYWpzh4wuNCj09z_7UDSwgBQ7fW2wbthcnMzS7h1zK4lQ?e=CgREVg",
     colab: {
       name: "Colab1",
       url: "https://colab.research.google.com/github/Graph-and-Geometric-Learning/cpsc483-583-website-24fall/blob/gh-pages/colab1.ipynb",
