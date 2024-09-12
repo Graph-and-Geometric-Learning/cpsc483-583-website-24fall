@@ -65,6 +65,20 @@ export default defineComponent({
         role: "TA",
         bio: "I am a first-year MS CBB student, previously from Singapore. Research interests include geometric deep learning, generative modelling, drug discovery, and structural biology.",
       },
+      {
+        name: "Herlock Rahimi",
+        image_src: new URL("../assets/photos/rahimi_herlock.webp", import.meta.url)
+          .href,
+        role: "TA",
+        bio: "I am a second-year Ph.D. student in Electrical Engineering. My research is around Distributionally Robust Optimization(DRO), Machine Learning Theory(MLT),  Functional Analysis, and Manifold Learning. I got my BSc of Computer Engineering, and Mathematics from Sharif University, Iran. For more information take a look at my website: herlockrahimi.com"
+      },
+      {
+        name: "David Zhang",
+        image_src: new URL("../assets/photos/zhang_david.jpg", import.meta.url)
+          .href,
+        role: "ULA",
+        bio: "I'm David, a second semester junior studying Statistics & Chemistry. My interests are primarily in biological foundation models, machine learning in drug discovery, and (biotech) startups."
+      }
     ],
   }),
 });

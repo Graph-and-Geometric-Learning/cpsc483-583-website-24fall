@@ -26,7 +26,7 @@
               <td>{{ item.reading }}</td>
               <td>
               <div v-if="item.hw">
-                {{ item.hw.name }} released <a :href="item.hw.pdf">[pdf]</a> <a :href="item.hw.zip">[zip]</a> 
+                {{ item.hw.name }} released <a :href="item.hw.pdf">[pdf]</a> <a :href="item.hw.zip">[zip]</a>
               </div>
               <br v-if="item.colab" />
               <div v-if="item.colab">
@@ -35,7 +35,7 @@
               </a>
                 <!-- {{ item.colab.name }} released <a :href="item.colab.url">[ipynb]</a> -->
               </div>
-            
+
               </td>
               <td>{{ item.deadline }}</td>
             </tr>
@@ -106,7 +106,8 @@ var items: Item[] = [
   },
   {
     "date": "Mon 09/09",
-    "lecture": "Graph Neural Networks Designs"
+    "lecture": "Graph Neural Networks Designs",
+    slide: "https://yaleedu-my.sharepoint.com/:b:/g/personal/rex_ying_yale_edu/ET2VRlrqey9Drn6jB90qva4BBGcMBWATYz2EbIYw4EmV9A?e=HlkaeY",
   },
   {
     "date": "Wed 09/11",
