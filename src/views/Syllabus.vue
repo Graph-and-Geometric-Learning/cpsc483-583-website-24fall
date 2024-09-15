@@ -110,16 +110,13 @@ var items: Item[] = [
     slide: "https://yaleedu-my.sharepoint.com/:b:/g/personal/rex_ying_yale_edu/ET2VRlrqey9Drn6jB90qva4BBGcMBWATYz2EbIYw4EmV9A?e=HlkaeY",
   },
   {
-    "date": "Wed 09/11",
-    "lecture": "GNN Implementations, Objectives and Loss Functions"
-  },
-  {
     "date": "Mon 09/16",
-    "lecture": "Scalable GNN Architectures"
+    "lecture": "GNN Implementations, Objectives and Loss Functions",
+    slide: "https://yaleedu-my.sharepoint.com/:b:/g/personal/rex_ying_yale_edu/EUV-P3eRkwRNreVBp9YlZ4sBQz_cCScQviMTJ7ALHSFtqQ?e=4yGMol",
   },
   {
     "date": "Wed 09/18",
-    "lecture": "Graph Attention Networks and Heterogeneous graphs"
+    "lecture": "Scalable GNN Architectures"
   },
   {
     "date": "Fri 09/20",
@@ -128,74 +125,78 @@ var items: Item[] = [
   },
   {
     "date": "Mon 09/23",
-    "lecture": "GNNs and Transformers"
+    "lecture": "Graph Attention Networks and Heterogeneous graphs"
   },
   {
     "date": "Wed 09/25",
-    "lecture": "Theory of Graph Neural Networks"
+    "lecture": "GNNs and Transformers"
   },
   {
     "date": "Mon 09/30",
-    "lecture": "Guest Lecture 1"
+    "lecture": "Theory of Graph Neural Networks"
   },
   {
     "date": "Wed 10/02",
-    "lecture": "GNN Expressive Power"
+    "lecture": "Guest Lecture 1"
   },
   {
     "date": "Mon 10/07",
-    "lecture": "GNN Expressive Power (2)"
+    "lecture": "GNN Expressive Power"
   },
   {
     "date": "Wed 10/09",
-    "lecture": "Graph Learning Tools"
+    "lecture": "GNN Expressive Power (2)"
   },
   {
     "date": "Mon 10/14",
-    "lecture": "Graph Transformers"
+    "lecture": "Graph Learning Tools"
   },
   {
     "date": "Mon 10/21",
-    "lecture": "Self-supervised Learning with GNNs"
+    "lecture": "Graph Transformers"
   },
   {
     "date": "Wed 10/23",
-    "lecture": "Foundation models and Pre-trained GNNs"
+    "lecture": "Self-supervised Learning with GNNs"
   },
   {
     "date": "Mon 10/28",
-    "lecture": "Explaining GNN Predictions"
+    "lecture": "Foundation models and Pre-trained GNNs"
   },
   {
     "date": "Wed 10/30",
-    "lecture": "Guest Lecture 2 (applications)"
+    "lecture": "Explaining GNN Predictions"
   },
   {
     "date": "Mon 11/04",
-    "lecture": "Distributed Node Embeddings"
+    "lecture": "Guest Lecture 2 (applications)"
   },
   {
     "date": "Wed 11/06",
-    "lecture": "Knowledge Graph Reasoning"
+    "lecture": "Distributed Node Embeddings"
   },
   {
     "date": "Mon 11/11",
-    "lecture": "Hyperbolic Embeddings and Hyperbolic GNNs"
+    "lecture": "Knowledge Graph Reasoning"
   },
   {
     "date": "Wed 11/13",
-    "lecture": "Advanced non-Euclidean Models"
+    "lecture": "Hyperbolic Embeddings and Hyperbolic GNNs"
   },
   {
     "date": "Mon 11/18",
-    "lecture": "Graph Generative Models"
+    "lecture": "Advanced non-Euclidean Models"
   },
   {
     "date": "Wed 11/20",
-    "lecture": "Multimodal Graph Learning"
+    "lecture": "Graph Generative Models"
   },
   {
     "date": "Mon 12/02",
+    "lecture": "Multimodal Graph Learning"
+  },
+  {
+    date: "Wed 12/04",
     "lecture": "Applications in Graphics, Neuroscience and Scientific Simulations"
   }
 

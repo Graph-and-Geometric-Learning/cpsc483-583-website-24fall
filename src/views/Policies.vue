@@ -59,9 +59,9 @@
                                     obligations to use magnifying glasses to figure out what you write.</li>
                             </ul>
                         </li>
-                        <li>Total of 2 <em>Late Periods</em> (LP) per student (up to 3 days)
+                        <li>Total of 2 <em>Late Periods</em> (LP) per student (up to 5 working days)
                             <ul>
-                                <li>Max 1 late period per assignment (no LP for final report)</li>
+                                <li>Max 1 late period per written or coding assignment (no LP for final report)</li>
                             </ul>
                         </li>
                     </ul>
@@ -112,9 +112,6 @@
                                 <li>Individual project is recommended. You may also form groups of up to 2 students. Team
                                     size will be taken under consideration when evaluating the scope of the project in
                                     breadth and depth.</li>
-                                <li>For undergraduates working with graduate students in a team, we expect you to specify
-                                    what is the responsibility of each person (we will be grading separately). Otherwise, we
-                                    will grade the entire project with graduate standards</li>
                             </ul>
                         </li>
                         <li>
@@ -124,23 +121,76 @@
                                     unequal contribution.</li>
                             </ul>
                         </li>
-                        <li>
-                            <b>Project Criteria</b>
-                            <ul>
-                                <li>Undergraduate: We expect new GNNs on at least 2 large-scale datasets. If you are
-                                    reproducing GNNs that are already open source, we expect an in-depth analysis
-                                    (comparison, ablation, visualization, interpretation, explainability, autoML). If
-                                    implementing complex GNNs from scratch, we will not require analysis</li>
-                                <li>Graduate: We require an in-depth analysis of GNNs. We will hold graduate student
-                                    projects to a higher level of novelty in algorithms/architectures on at least 2
-                                    datasets. If you implement off-the-shelf GNNs, you must devise new modifications or
-                                    try out different tasks and objectives.</li>
-                                <li>The Project is an important part of the class and it will be very beneficial if you
-                                    aim to work on research in this area.</li>
-                                <li>Consult with the teaching staff if you have questions</li>
-                            </ul>
-                        </li>
                     </ul>
+                    <h1 class="my-4">Project Proposals</h1>
+                    <ol class="ml-4">
+  <li>
+    <strong>Research Problem Definition (10pts):</strong>
+    <p>
+      Define the problem that you will be investigating in this project. Consider addressing the following:
+      <ul>
+        <li>What makes this problem interesting to you?</li>
+        <li>What is your deep learning algorithm trying to learn?</li>
+        <li>Why is the selected topic important?</li>
+        <li>What is the overall goal of your project?</li>
+      </ul>
+    </p>
+  </li>
+  
+  <li>
+    <strong>Dataset (20pts):</strong>
+    <p>
+    Which dataset will you use? 
+    Provide a detailed description of the dataset you plan to use for this project.  
+    Include some preliminary analysis of your dataset, such as graph statistics (graph size and degree distribution), or other relevant characteristics. 
+    Whenever possible, include visualizations in your proposal to help clarify and enhance our (and yourself) understanding of your dataset.
+    </p>
+  </li>
+
+  <li>
+    <strong>Description of Related Works (20pts):</strong>
+    <p>
+    Conduct a comprehensive literature review regarding your project e.g., If you want to propose a new GNN algorithm, review similar algorithms; if your goal is to apply an algorithm to a new domain, examine how similar approaches have been adapted in other domains). Be sure to clearly explain how your work relates to and builds upon the existing research i.e., explain the similarities and differences). 
+    </p>
+  </li>
+
+  <li>
+    <strong>Proposed Approaches (30pts):</strong>
+    <p>
+    Which approaches/algorithms will you use? 
+Each team member (if applicable) should implement their own proposed approach. While methods may have shared elements, they should have unique elements. 
+Each team member should write up their own subsection detailing the methodology they will implement individually (e.g., Section 2.1 Proposed Methodology 1 (Chuhan)). </p><p>
+<strong>Note</strong>: Be aware if you are replicating or using existing repositories/code, please propose a non-trivial adjustment, such as evaluating the model on a new dataset or adjusting a component of the model architecture or loss. 
+Alternatively, one may combine two repositories for a novel application. 
+<ul>
+    <li>
+    <strong>Research Questions and hypothesis</strong>
+    <p>    Briefly describe your research questions and hypothesis. 
+    These questions should be more detailed than the general research questions outlined in item 1. 
+    For instance, if your overall research question is to propose a new clustering algorithm, your specific research questions could be <i>what's the performance difference between my clustering algorithm and heuristic clustering algorithms, such as k-means, dbscan, and mean shift?</i> Your hypothesis could be <i>my proposed algorithm will run faster than any of these heuristics, while maintaining high accuracy.</i> </p>
+    </li>
+</ul>
+    </p>
+  </li>
+
+  <li>
+    <strong>Evaluation Metrics and Expected Results (10pts):</strong>
+    <p>
+    What evaluation metrics will you use to evaluate your result?
+Consider your research questions — what are the expected results that will help answer these questions?
+Ensure that the metrics and expected results align with your research objectives and demonstrate the effectiveness of your approach.
+</p> 
+ </li>
+
+  <li>
+    <strong>Timeline (10pts):</strong>
+    <p>
+    Provide a detailed project timeline for the semester, outlining key milestones and deadlines. 
+Additionally, specify how tasks will be divided among team members (if applicable) to ensure efficient progress.
+    </p>
+  </li>
+</ol>
+
                 </v-sheet>
             </v-col>
         </v-row>
