@@ -101,7 +101,7 @@ function getChuhanEvents() {
 }
 
 function getHerlockEvents() {
-    return getRecurringEvents(4, "Herlock", "Bass Library L34D", "", 11.5, 12.5)
+    return getRecurringEvents(4, "Herlock", "HLH17 Room 233", "", 14.5, 16)
 }
 
 function getRishabhEvents() {

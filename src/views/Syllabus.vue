@@ -116,12 +116,18 @@ var items: Item[] = [
   },
   {
     "date": "Wed 09/18",
-    "lecture": "Scalable GNN Architectures"
+    "lecture": "Scalable GNN Architectures",
+    slide: "https://yaleedu-my.sharepoint.com/:b:/g/personal/rex_ying_yale_edu/ERY5igrXpbRMtpmYSsZFEcQBdZWxKNUOflI1bI6YKMdg1Q?e=xvS6qD",
   },
   {
     "date": "Fri 09/20",
     "lecture": "No classes",
     deadline: "Colab 1 Due",
+    hw: {
+      name: "HW2",
+      pdf: import.meta.env.BASE_URL + "assignment_2.pdf",
+      zip: import.meta.env.BASE_URL + "assignment_2.zip",
+    },
   },
   {
     "date": "Mon 09/23",
@@ -138,6 +144,11 @@ var items: Item[] = [
   {
     "date": "Wed 10/02",
     "lecture": "Guest Lecture 1"
+  },
+  {
+    date: "Fri 10/04",
+    "lecture": "No classes",
+    deadline: "HW2 Due"
   },
   {
     "date": "Mon 10/07",
