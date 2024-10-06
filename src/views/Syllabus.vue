@@ -131,7 +131,8 @@ var items: Item[] = [
   },
   {
     "date": "Mon 09/23",
-    "lecture": "Graph Attention Networks and Heterogeneous graphs"
+    "lecture": "Graph Attention Networks and Heterogeneous graphs",
+    slide: "https://yaleedu-my.sharepoint.com/:b:/g/personal/rex_ying_yale_edu/EZVvAZLiBlxJrZJBYa0Owf4BEieEIfsuVdfR1irb_742eg?e=VsLNRk",
   },
   {
     "date": "Wed 09/25",
@@ -148,11 +149,11 @@ var items: Item[] = [
   {
     date: "Fri 10/04",
     "lecture": "No classes",
-    deadline: "HW2 Due"
   },
   {
     "date": "Mon 10/07",
-    "lecture": "GNN Expressive Power"
+    "lecture": "GNN Expressive Power",
+    deadline: "HW2 Due"
   },
   {
     "date": "Wed 10/09",
