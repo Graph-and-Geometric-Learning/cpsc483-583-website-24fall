@@ -21,7 +21,7 @@
                 {{ item.lecture }}
                 <a v-if="item.date === 'Mon 10/02'" href="https://yale.zoom.us/j/94207787464?from=addon">[Zoom]</a>
               </td>
-              <td><a v-if="item.slide" :href="item.slide">[slide]</a></td>
+              <td><a v-if="item.slide" :href="item.slide">[slides]</a></td>
               <td><a v-if="item.recording" :href="item.recording">[recording]</a></td>
               <td>{{ item.reading }}</td>
               <td>
@@ -140,24 +140,39 @@ var items: Item[] = [
   },
   {
     "date": "Mon 09/30",
-    "lecture": "Theory of Graph Neural Networks"
+    "lecture": "Theory of Graph Neural Networks",
+    slide: "https://yaleedu-my.sharepoint.com/:b:/g/personal/rex_ying_yale_edu/ETyEdwcu7VlNrwXT-RAMbRsBwJwKdevCuv8TE2x-E6XbKQ?e=LvT15S",
   },
   {
     "date": "Wed 10/02",
     "lecture": "Guest Lecture 1"
   },
   {
-    date: "Fri 10/04",
+    date: "Sun 10/06",
     "lecture": "No classes",
+    colab: {
+      name: "Colab2",
+      url: "https://colab.research.google.com/github/Graph-and-Geometric-Learning/cpsc483-583-website-24fall/blob/gh-pages/colab2.ipynb",
+    },
   },
   {
     "date": "Mon 10/07",
     "lecture": "GNN Expressive Power",
-    deadline: "HW2 Due"
+    deadline: "HW2 Due",
+    slide: "https://yaleedu-my.sharepoint.com/:b:/g/personal/rex_ying_yale_edu/EXQsO_TlWxNOrGdqNh1tiSYB-2n-fR631QJl7nZje0qOIg?e=pbPJQb",
   },
   {
     "date": "Wed 10/09",
     "lecture": "GNN Expressive Power (2)"
+  },
+  {
+    date: "Fri 10/11",
+    "lecture": "No classes",
+    hw: {
+      name: "HW3",
+      pdf: import.meta.env.BASE_URL + "assignment_3.pdf",
+      zip: import.meta.env.BASE_URL + "assignment_3.zip",
+    },
   },
   {
     "date": "Mon 10/14",
