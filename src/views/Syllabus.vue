@@ -145,7 +145,8 @@ var items: Item[] = [
   },
   {
     "date": "Wed 10/02",
-    "lecture": "Guest Lecture 1"
+    "lecture": "Guest Lecture 1",
+    slide: "https://yaleedu-my.sharepoint.com/:b:/g/personal/rex_ying_yale_edu/EX36CMVEFExPkhpwk02vvy0BOy2n_FagknrfxSVb_zZeMg?e=4venXA",
   },
   {
     date: "Sun 10/06",
@@ -180,11 +181,13 @@ var items: Item[] = [
   },
   {
     "date": "Mon 10/21",
-    "lecture": "Graph Transformers"
+    "lecture": "Graph Transformers",
+    slide: "https://yaleedu-my.sharepoint.com/:b:/g/personal/rex_ying_yale_edu/EfSMNsaW-QROsS5Agxz_tCYBOPlV7h053x9h3lQ974bnqw?e=5qeyLr",
   },
   {
     "date": "Wed 10/23",
-    "lecture": "Self-supervised Learning with GNNs"
+    "lecture": "Self-supervised Learning with GNNs",
+    deadline: "Colab2 Due",
   },
   {
     "date": "Mon 10/28",
