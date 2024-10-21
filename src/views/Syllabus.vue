@@ -136,7 +136,8 @@ var items: Item[] = [
   },
   {
     "date": "Wed 09/25",
-    "lecture": "GNNs and Transformers"
+    "lecture": "GNNs and Transformers",
+    slide: "https://yaleedu-my.sharepoint.com/:b:/g/personal/rex_ying_yale_edu/ES8rMcauiK5Au0ivE6BWzeUB6jYd5yXDC3urnTsGhycvTw?e=fW9rDS",
   },
   {
     "date": "Mon 09/30",
