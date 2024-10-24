@@ -188,6 +188,7 @@ var items: Item[] = [
   {
     "date": "Wed 10/23",
     "lecture": "Self-supervised Learning with GNNs",
+    // slide: "https://yaleedu-my.sharepoint.com/:b:/g/personal/rex_ying_yale_edu/ERPMTewcsS5EsPwdd1b5ksUBEQtjPoTi1k31ULgQPwDjsg?e=MttGZp",
     deadline: "Colab2 Due",
   },
   {
