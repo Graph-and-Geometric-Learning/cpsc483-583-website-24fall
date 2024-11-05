@@ -188,20 +188,32 @@ var items: Item[] = [
   {
     "date": "Wed 10/23",
     "lecture": "Self-supervised Learning with GNNs",
-    // slide: "https://yaleedu-my.sharepoint.com/:b:/g/personal/rex_ying_yale_edu/ERPMTewcsS5EsPwdd1b5ksUBEQtjPoTi1k31ULgQPwDjsg?e=MttGZp",
+    slide: "https://yaleedu-my.sharepoint.com/:b:/g/personal/rex_ying_yale_edu/EbbtWZe7BT1ErO16GlWXVnYBVv5d9SLq35oNg1ntIxv78w?e=lbvsk8",
     deadline: "Colab2 Due",
+    colab: {
+      name: "Colab3",
+      url: "https://colab.research.google.com/github/Graph-and-Geometric-Learning/cpsc483-583-website-24fall/blob/master/public/colab3.ipynb",
+    }
   },
   {
     "date": "Mon 10/28",
-    "lecture": "Foundation models and Pre-trained GNNs"
+    "lecture": "LLMs and Graphs",
+    slide: "https://yaleedu-my.sharepoint.com/:b:/g/personal/rex_ying_yale_edu/ETAMHnwcTc1GkOJqyFjni0MBvQ-O7e9CmIsh_FMHVm_Rpw?e=Pk496t",
   },
   {
     "date": "Wed 10/30",
-    "lecture": "Explaining GNN Predictions"
+    "lecture": "Self-supervised Learning with GNNs (2)",
+    slide: "https://yaleedu-my.sharepoint.com/:b:/g/personal/rex_ying_yale_edu/EQgI6_dfXhpHgsu1hgN_iGwBHv3NMNxqL0xQOnS2Pc3QHQ?e=HCIwtO",
+    hw: {
+      name: "HW4",
+      pdf: import.meta.env.BASE_URL + "assignment_4.pdf",
+      zip: import.meta.env.BASE_URL + "assignment_4.zip",
+    },
   },
   {
     "date": "Mon 11/04",
-    "lecture": "Guest Lecture 2 (applications)"
+    "lecture": "Hyperbolic Embeddings and Hyperbolic GNNs",
+    slide: "https://yaleedu-my.sharepoint.com/:b:/g/personal/rex_ying_yale_edu/EcDL_mJhvwZEtxtXCQ9dlN4Bp5FhQSeIL3gE-KkcP0hfNw?e=xSaroF"
   },
   {
     "date": "Wed 11/06",
@@ -210,10 +222,6 @@ var items: Item[] = [
   {
     "date": "Mon 11/11",
     "lecture": "Knowledge Graph Reasoning"
-  },
-  {
-    "date": "Wed 11/13",
-    "lecture": "Hyperbolic Embeddings and Hyperbolic GNNs"
   },
   {
     "date": "Mon 11/18",

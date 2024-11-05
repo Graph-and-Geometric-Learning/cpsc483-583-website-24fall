@@ -88,7 +88,7 @@ function getRecurringEvents(day: number, name: string, loc: string, zoom_link: s
 // David: Saturday Office Hour (time 1-2pm, location: Kline rm 211) 
 
 function getWeikangEvents() {
-    return getRecurringEvents(3, "Weikang", "Dunham 432", "", 12, 13)
+    return getRecurringEvents(3, "Weikang", "Dunham 514", "", 12, 13)
 }
 
 
