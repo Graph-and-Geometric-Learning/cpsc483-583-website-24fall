@@ -220,6 +220,14 @@ var items: Item[] = [
     "lecture": "Distributed Node Embeddings"
   },
   {
+    "date": "Fri 11/08",
+    "lecture": "No classes",
+    colab: {
+      name: "Colab4",
+      url: "https://colab.research.google.com/github/Graph-and-Geometric-Learning/cpsc483-583-website-24fall/blob/master/public/colab4.ipynb",
+    }
+  },
+  {
     "date": "Mon 11/11",
     "lecture": "Knowledge Graph Reasoning"
   },
@@ -238,6 +246,11 @@ var items: Item[] = [
   {
     date: "Wed 12/04",
     "lecture": "Applications in Graphics, Neuroscience and Scientific Simulations"
+  },
+  {
+    date: "Fri 12/06",
+    "lecture": "No classes",
+    deadline: "Colab 4 Due",
   }
 
 ];
