@@ -237,7 +237,8 @@ var items: Item[] = [
   },
   {
     "date": "Wed 11/20",
-    "lecture": "Graph Generative Models"
+    "lecture": "Graph Generative Models",
+    slide: "https://yaleedu-my.sharepoint.com/:b:/g/personal/rex_ying_yale_edu/ES8DCJ8b_6tJq7nv3uGzVcABPJnNvA0Z3ZADJMViGFdU9g?e=dZumiG",
   },
   {
     "date": "Mon 12/02",
