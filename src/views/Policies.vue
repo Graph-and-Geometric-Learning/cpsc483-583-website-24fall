@@ -190,6 +190,12 @@ Additionally, specify how tasks will be divided among team members (if applicabl
     </p>
   </li>
 </ol>
+<h1>Excellent Project Reports</h1>
+    <ul>
+        <li v-for="(project, index) in projects" :key="index">
+            <a :href="project.link">[{{ project.name }}]</a>
+        </li>
+    </ul>
 
                 </v-sheet>
             </v-col>
@@ -197,3 +203,23 @@ Additionally, specify how tasks will be divided among team members (if applicabl
     </v-container>
 </template>
 
+<script setup>
+let projects = [
+    {
+        name: "Tristan Brigham",
+        link: import.meta.env.BASE_URL + "reports/" + "brigham.pdf",
+    },
+    {
+        name: "Andreas Varvarigos",
+        link: import.meta.env.BASE_URL + "reports/" + "varvarigos.pdf",
+    },
+    {
+        name: "Ananya Krishna & Arjan kohli",
+        link: import.meta.env.BASE_URL + "reports/" + "arjan.pdf",
+    },
+    {
+        name: "Lucas lee",
+        link: import.meta.env.BASE_URL + "reports/" + "lee.pdf",
+    },
+]
+</script>

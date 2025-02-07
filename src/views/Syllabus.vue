@@ -217,7 +217,8 @@ var items: Item[] = [
   },
   {
     "date": "Wed 11/06",
-    "lecture": "Distributed Node Embeddings"
+    "lecture": "Distributed Node Embeddings",
+    slide: "https://yaleedu-my.sharepoint.com/:b:/g/personal/rex_ying_yale_edu/EdjomJlmIv5Gu4pLllKjsRsB1b7aRS4pVMGso2OUPJckQQ?e=LhKtGw",
   },
   {
     "date": "Fri 11/08",
@@ -229,16 +230,18 @@ var items: Item[] = [
   },
   {
     "date": "Mon 11/11",
-    "lecture": "Knowledge Graph Reasoning"
+    "lecture": "Graph Generative Models",
+    slide: "https://yaleedu-my.sharepoint.com/:b:/g/personal/rex_ying_yale_edu/ES8DCJ8b_6tJq7nv3uGzVcABPJnNvA0Z3ZADJMViGFdU9g?e=dZumiG",
   },
   {
     "date": "Mon 11/18",
-    "lecture": "Advanced non-Euclidean Models"
+    "lecture": "Knowledge Graph Embeddings",
+    slide: "https://yaleedu-my.sharepoint.com/:b:/g/personal/rex_ying_yale_edu/EaK7dCBYIxFDj7WQWjo20zcBB3X800dWDAiEdITDbb7UGw?e=IKqC2y,"
   },
   {
     "date": "Wed 11/20",
-    "lecture": "Graph Generative Models",
-    slide: "https://yaleedu-my.sharepoint.com/:b:/g/personal/rex_ying_yale_edu/ES8DCJ8b_6tJq7nv3uGzVcABPJnNvA0Z3ZADJMViGFdU9g?e=dZumiG",
+    "lecture": "XAI for Graphs",
+    slide: "https://yaleedu-my.sharepoint.com/:b:/g/personal/rex_ying_yale_edu/EXEUpiDXlohJk5DaxpqDd-cBR7isKEV8RkPEF7pBWAn6Uw?e=CJhW11",
   },
   {
     "date": "Mon 12/02",
@@ -246,7 +249,8 @@ var items: Item[] = [
   },
   {
     date: "Wed 12/04",
-    "lecture": "Applications in Graphics, Neuroscience and Scientific Simulations"
+    "lecture": "Applications in Graphics, Neuroscience and Scientific Simulations",
+    slide: "https://yaleedu-my.sharepoint.com/:b:/g/personal/rex_ying_yale_edu/EV0-6sybgmxCucgklnLq2b4Bfobs9FJde7W0DIFRn8B2gQ?e=mYGwyS",
   },
   {
     date: "Fri 12/06",
